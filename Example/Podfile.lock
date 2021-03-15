@@ -1,0 +1,32 @@
+PODS:
+  - FlashPrinter (0.0.1):
+    - MBProgressHUD (~> 1.1.0)
+    - MYL_Jewelry (~> 0.0.3)
+    - SnapKit (~> 4.0.0)
+  - MBProgressHUD (1.1.0)
+  - MYL_Jewelry (0.0.3)
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - FlashPrinter (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MYL_Jewelry
+  trunk:
+    - MBProgressHUD
+    - SnapKit
+
+EXTERNAL SOURCES:
+  FlashPrinter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlashPrinter: 30aa57a85bd1f1bf93e015413f2f9d0594998b8e
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MYL_Jewelry: 723c5f6afe82e50f6d704a313771fb4e5637c000
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: 943c83caae783f844e2c93fc81358c0e5d937ea0
+
+COCOAPODS: 1.10.0

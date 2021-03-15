@@ -1,0 +1,16 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FlashPrinter_Example' do
+  pod 'FlashPrinter', :path => '../'
+
+  target 'FlashPrinter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

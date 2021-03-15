@@ -1,0 +1,2070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0162E4FC8C9DA55D76F7A68EDF893B7A /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AA27A0EFF80C24664FCE11B4317E2 /* ConstraintMakerExtendable.swift */; };
+		023E262922CCA5420B0207A7944B61E7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F5D9E9819F4D71E527D923966D506 /* MBProgressHUD.m */; };
+		0275E2E5FDCCC46E9F03FD30174F290D /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18298A355CB5EA6C090EB183CFA9EBEC /* ConstraintMakerEditable.swift */; };
+		031C59D7DA2EE90689A19C8D5B6EF9CE /* MYL_Jewelry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2035477F889F7FFFB3753D1AC92ECAD1 /* MYL_Jewelry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0372B203F543D90248E55E40CB64C24E /* FPBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83FF057425314D58FB9692DCD90B10 /* FPBaseProtocol.swift */; };
+		0788E28086777539C40837F21B937CBC /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 566E20BA87599E2CB68F99DC2C3DF334 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D636F5426BA270D940DDDBE25551A2A /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE6318106DC98FBF54C21180687D352 /* MBProgressHUD.framework */; };
+		14F519E5736C965D8DD64D8DE82A5E04 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02443C57C4D27FB750A9C6534942F96F /* ConstraintMakerPriortizable.swift */; };
+		1963EF14B7944581A192CCFC5F8BE2C8 /* FPSelectPrinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8BF46A69D3FC49FFB24141A08DC78 /* FPSelectPrinterView.swift */; };
+		1CB3BD487D9E849ACD9E177305461BA2 /* Printer.h in Headers */ = {isa = PBXBuildFile; fileRef = 860D673E2CB251CBDB85738C8FCA685E /* Printer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2240EBB1B820AA414959C4B20765358C /* FP_Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92284AFF4DA112F82C85BE6C578CB14B /* FP_Bundle+Extension.swift */; };
+		284D8860846D79F95F027047924BF99D /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B13A556C39CEEF2FEB2DC17D2193FFF /* ConstraintViewDSL.swift */; };
+		2A1BEF4B280005E37101B593CDF1CB4B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514530E4D72EE09F7D590C66956BC8E /* ConstraintDescription.swift */; };
+		2B57DC2972446A430789351FDEC98863 /* Printer in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F5DDB24DC85E73EE6A6CDDD4DFF9 /* Printer */; };
+		2D5890C6F04969C60F90353F8AE941EE /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 092607C2C08FD3AD777CAF8B9E2B6CFA /* module.modulemap */; };
+		31128E9F96EA9D578E93E97AD297B4AC /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E18D338C67B80598F88F08FA568FE /* ConstraintMaker.swift */; };
+		32D16A90D24B0BF50E2942520B053551 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD280EA4DC6EF1C7977CF7EEF90C980D /* Typealiases.swift */; };
+		35C9F32628B035DAA61F1D198C58758D /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B53258830D5681D44145C0E022B5FFE /* ConstraintItem.swift */; };
+		3622ED939FDA4701FF4316A8300E658C /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA71C4BE6CDC4090F8F5957BEB1B8F9 /* ConstraintConstantTarget.swift */; };
+		3657674552AA956E6F53B8C092B2F990 /* FP_BaseeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE709BC1E2D21256FE17107231DEED6 /* FP_BaseeTableViewCell.swift */; };
+		39FC9BD227BF484A3CB56CC98B2C7BD6 /* FPCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A32AB8EDE7C73334E0787317D46E32E /* FPCentralManager.swift */; };
+		3A01D0820C646DE55C696C982F0FFB13 /* FlashDrawManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CA8F266B11A5EB2CA8D316421D75E /* FlashDrawManager.swift */; };
+		432ABC78092C553FC03568083929862C /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0BF89DABDBE401C340BDEB85FCE10 /* ConstraintConfig.swift */; };
+		45487ECEC505F8BA5FA9DB2EB1EA45E6 /* MYL_Jewelry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E0DF8DE9600C683036A02C957A216A /* MYL_Jewelry.framework */; };
+		4B54E5BDF422197DBCAA6EB58DFE561D /* FDLabelBaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A05C16A18A251BA572782F01511FE6 /* FDLabelBaseData.swift */; };
+		4C8B53A6F687B22BB34B3ACFA1A1958B /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40121BCDF435DF883A735012105C952 /* ConstraintView.swift */; };
+		4CAB9A638D07C8C7F9411A2531FE2FB9 /* FPSelectPrinterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769DA2579DC3EE7FD64384E2DC0E0178 /* FPSelectPrinterViewModel.swift */; };
+		4D918827327CF5B16C38503F646FC691 /* FPTipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C744E65DEE9D804BE97ED4215D60A5C8 /* FPTipsViewModel.swift */; };
+		50C410A87A5EFCCC5EC4E36EAC3225B9 /* FPPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41508C6D66E6FAD7642C939F0208F0B /* FPPeripheralManager.swift */; };
+		5201CB6B4D09545530A46D15A7817444 /* FPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C2B84A7974DAECBE35D32D6E9B038C /* FPBaseViewController.swift */; };
+		548EE0619866FAFE98AD0A66EFA34183 /* Pods-FlashPrinter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B30431E6499C2D043696E0965EE73 /* Pods-FlashPrinter_Example-dummy.m */; };
+		55F4B65808913C12039920316DBCB763 /* MYL_Jewelry.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3B1A77C0429897C70AD10321F2DB33 /* MYL_Jewelry.xcassets */; };
+		5BBEAB2BCAEB2B06F4EC168DCDEBB339 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744170B4559595E1171B6AB7E44C1E7B /* ConstraintRelatableTarget.swift */; };
+		6302652C2F5E56FDA76DB45C3B5CE889 /* FlashPrinter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A53D1DBE509DBBFE3DC76C1A8777294 /* FlashPrinter-dummy.m */; };
+		6F7CAD02B3875995F88976AA0D3E3038 /* FPPrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCA9D47163AB0F94F14491325A253D /* FPPrintManager.swift */; };
+		73DDC2C557CB7AFB78BD550591EABD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */; };
+		7483C3097DA46509CF69B3FF32E6AF54 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1E2F1753DDB036F049831F391C7339 /* Constraint.swift */; };
+		772E99C12C7FA639B61DF3477EDB7332 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D75C9F4D74AD34ACA56CAFE9DF9626 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E7258552AD2102912635D68BC7AB1B /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 892A764C8CF490BB48E61252817D150A /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E452BB0A818AE84383B63EFB173B03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */; };
+		7C94BCD2E35A3D343191B63F7DC6F5C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC035F89CE7DDC7F7D8FDA104119C4 /* CoreGraphics.framework */; };
+		80F52C4B13ED89614B1BC9370DE6D13C /* FlashPrinter.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96BD753516E16B10BA24F6CDD5A7946 /* FlashPrinter.xcassets */; };
+		8115B27C8230010E67F2429D47BD1770 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D8D828F76B3B1AC79B6CBBEBAD7CB /* ConstraintOffsetTarget.swift */; };
+		814B2198A8C4482B02F89AAC75A75380 /* FPSelectPrinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A590676FC638403650320856593B7C /* FPSelectPrinterViewController.swift */; };
+		83652CB91CC2533A9FC16927F816037A /* FPPeripheralCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8000AE29E140E660F0567012B78AC33 /* FPPeripheralCell.swift */; };
+		8A9BF5CE52E5C012EA64271F2B656C04 /* Draw_Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21E2ACCD90654C3BA13DDE1EC6305C6 /* Draw_Bundle+Extension.swift */; };
+		8DAF2243B8ED0A4360BE0CAB1A592A0D /* MYL_Jewelry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E77CEC1FBC032660614465A0D25515D /* MYL_Jewelry-dummy.m */; };
+		9017FC5525C3FA3E9FBF1618E33149B4 /* MYL_Jewelry.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */; };
+		92989EDF77869A900D243FCC417D9740 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000CE50D5860B215C63A7C50C136A72E /* ConstraintLayoutSupport.swift */; };
+		967BFCB71F7B862D520BE9CC0E5100F6 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0877D0C17A297238E2863DD01337F58 /* ConstraintAttributes.swift */; };
+		96F79553C5779C9FB6D7F474699D7AD1 /* FP_UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12AC3BB2F7D5058A3B59C45A14FBF8F /* FP_UIColor+Extension.swift */; };
+		978F50A904ECBA3D55E9CFDCC63C269D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */; };
+		988454C877DABE1C589A7F6D3F6C8937 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C415DFEC3EF9ABAC8D59A1844DA85 /* ConstraintLayoutGuide+Extensions.swift */; };
+		9B75DD733038D28753A6698D754D5BCB /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1A91D0FF5FF90B28E85BB5213B0E6F /* SnapKit.framework */; };
+		9ED379767E03B5F6F67D851460DAC459 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762241D85B9F65A86B0737015B3B937 /* Debugging.swift */; };
+		A0C3DF9D6F894E2CE257B6555C6F5EAE /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F82AD23D69E723B3AC9BFA2B5351E53 /* ConstraintLayoutSupportDSL.swift */; };
+		A0CF4D572964B199F0834DCAAA41C85F /* FPAlisonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7271D3814442FF4485D97513E935206 /* FPAlisonService.swift */; };
+		A3D87754312D21BE68AE7F6421B728E7 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C2BDCF0C19387B36AADC3352DAEF6 /* ConstraintLayoutGuideDSL.swift */; };
+		A97F6DFA083476D395EBA7E3BA875FBB /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B9472753DC58B6D60DDC6F885CD204 /* UILayoutSupport+Extensions.swift */; };
+		AB5117B631CE5F960ECDF48D4FFB97DA /* FPBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA449A9F23F6EF1BDFE9C3450A8C337 /* FPBaseModel.swift */; };
+		AC0F51BBA71B389CF690EED4E25D6392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */; };
+		AD3B21CDF2DCFF3AD2AA5673D6A0D48D /* FD_BarcodeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF2158177D150B9580E550EAB10C40 /* FD_BarcodeTools.swift */; };
+		AE09843D081A5DCB2F8839FA248AC174 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D530125AD79BD56908EE5935AA9CE2 /* ConstraintInsetTarget.swift */; };
+		AE4F701B2AB3B3C43415E4535F160960 /* Pods-FlashPrinter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6D902587124D53825EC090876478FC /* Pods-FlashPrinter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF7B3703657C3F1E93441A94C3AC35B3 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABDFD0EB3E5E37F721EB40B094CCC8 /* ConstraintPriority.swift */; };
+		B1AF35516ED605FE164679FFBED02FF2 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77091DF407F57B97E1C844D825E1379 /* LayoutConstraint.swift */; };
+		B220B260A65019EE93F0D3B3852E0B21 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DFA16AFCD9D08C1A2CA7E858A5A2FC /* MBProgressHUD-dummy.m */; };
+		B22EAA3E404B3262E77ED22B371BDEF5 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0AB88AC85AE9874CDE554C75C41D3 /* ConstraintMultiplierTarget.swift */; };
+		B500CA6C8BDB3ADD94396F4D203D8506 /* FP_UIView+FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F19F95505775E1C7FFE65BF487A98 /* FP_UIView+FrameExtension.swift */; };
+		BFC31D1449DC5DB64AF68E4F9B88311C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9C4F824313028B5F797119D2EFC049 /* QuartzCore.framework */; };
+		C0ED21F80BE264C865302C98B2E043AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */; };
+		C11C2A391184CD8F8910E41F5D441D8A /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEFD845CEE8EFE31EC72CF17541D7B1 /* SnapKit-dummy.m */; };
+		C145B5CB7F6290BFEF6B5678D86F4413 /* FlashPrinter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 368E1FB886D722208974394C4BC6D769 /* FlashPrinter.bundle */; };
+		C46BE585BA36AC391634B96E0A0BD26E /* BLEGATTService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A88E9408336DF4E0BAA7E31A0386407 /* BLEGATTService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C772B89904883BCFADCFA1C7C50D7F02 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D450FF2B655DAB7E60CB2EFBDA80D78 /* ConstraintDSL.swift */; };
+		C8FA75B33C57BAEB05857AE86551BA33 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470CF8F8B392E7BDB107D46BF56D47D4 /* LayoutConstraintItem.swift */; };
+		CEA0F0B4E3D4590DDE3C9FC72AD0E77A /* Pods-FlashPrinter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F947384D2C70C118DF5DF15A99C /* Pods-FlashPrinter_Tests-dummy.m */; };
+		D12BD56EBECAFA29D5F8E707E5435F42 /* FlashPrinter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3489F06BCDF2F3D52B2902AC44005 /* FlashPrinter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D21DF3DEA539CBBDDCBB0EB983A461FB /* Draw_UIView+FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9C941B871894EA9BF0674EE496442 /* Draw_UIView+FrameExtension.swift */; };
+		D3AC4465BD3C9DCFC7E315A800A02F97 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0A7E9E180C87C158ED72752011605 /* ConstraintLayoutGuide.swift */; };
+		D7005F7617CA8EA905F3698D8630C865 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C0E4ECA1E7222DCB51E5E6BCDC07 /* ConstraintPriorityTarget.swift */; };
+		D898DE7CB78FACA3F4E8BBE583602BDF /* FPTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2339FA79CCDAA66775B4FCF0CB2C69A /* FPTipsView.swift */; };
+		D9249F46C81289A9FCF50FAB8A249539 /* BLEService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3272E63B368FD740660D59AF6CABD534 /* BLEService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAAC6ED487557D164C6FF84D2E5608F0 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D2D73FFD63B5DCF49632EBDBFC0E67 /* ConstraintMakerFinalizable.swift */; };
+		E039E3912CF4AAB28EDA63752E1B3877 /* FPConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B1744ECA2237CC3B86F7EFCD2430F6 /* FPConfiguration.swift */; };
+		E2BA84754D278C568647CF3929692D42 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F92D35469F1290A5A82A4AFE5BE6859 /* ConstraintRelation.swift */; };
+		E545DBE0F1CD77F164AF7202A808D199 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E1BE54155C1F31D7DF98F57EBE654 /* ConstraintInsets.swift */; };
+		E86058984BE861ACEB0309FE7525DF75 /* FPPrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D1B100330BFA9B01EC5C4F122135A7 /* FPPrintViewController.swift */; };
+		EB84B988876B592F79E28148030FAEB0 /* FPLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 178019E43D7DFF90634C394904B55D21 /* FPLocalizable.strings */; };
+		EC88B0BF05D59E3EB651D7562F73627C /* FPBaseWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE66EFF7E4227356FC71A12AC680B /* FPBaseWindow.swift */; };
+		ED267AEC31A7B62EEF4B332DC9636081 /* FPServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D957CF928784DC47B3AE47B8AB9B6C /* FPServiceBase.swift */; };
+		EDB9EF82AA70459C404EC6D84D6B81E6 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3CA5D693B6FDC934D7E2C9B13C17DA /* ConstraintView+Extensions.swift */; };
+		EDD21449BAE2887F0BC10124F80FB063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */; };
+		EE25148721981880CDC7171A82ECEBED /* FP_Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F6BD7B1F5719AC710291A8EBD6E4B /* FP_Define.swift */; };
+		F007CE85D1251E805F6C94F170B606E3 /* FPLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 41B614C377A3870A408073D155BC2969 /* FPLocalizable.strings */; };
+		F1EA891358018638F91FB02306DBA28A /* FPPrintTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC432AE909DE29DFA9D7CEA41F5B931F /* FPPrintTool.swift */; };
+		F3E94FDAB71714F14FE19DE880A83FB7 /* Pods-FlashPrinter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D2FDAEC879ED6D7C5D9597A3EAA48C /* Pods-FlashPrinter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB90151D599CAA27A4AD41AD4A399D7 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4238C236A4300484AEB0D09628D7CB /* ConstraintMakerRelatable.swift */; };
+		FD98E2FF7FCC8BF632462386268ED250 /* FPLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1035BD3C6BC8587F9CDB8FFD1C85651A /* FPLocalizable.strings */; };
+		FDF0551EBCEDC584CD0B21B3F6CB15B2 /* FlashDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC484288DD8A2ED6318A7352AF281A5B /* FlashDraw.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034E9F5384BA4A665D7D7FA3D264A8A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD0371C73E0DC78AC440AFFED426977;
+			remoteInfo = "MYL_Jewelry-MYL_Jewelry";
+		};
+		158D597E0B345F5BF35A4BCFFC126876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50B93C27E1234C2BAAAAB5054CC8B9F;
+			remoteInfo = "FlashPrinter-FlashPrinter";
+		};
+		2C84EC365FD5A227A1A5788F643D1746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46D97B202FA2F36871924D1601B4CEE;
+			remoteInfo = MYL_Jewelry;
+		};
+		2D018BC9C565AE855B75D98CFB40DCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF076602E93F99FF0DE42937227C48B;
+			remoteInfo = "Pods-FlashPrinter_Example";
+		};
+		4A24C0B72A1C814B75CD3EA4AF34B86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7067AE046CA96B41E8ED054B86677796;
+			remoteInfo = FlashPrinter;
+		};
+		6318FD5EBA690F37F5ED9C0698C6AE7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		762706E76F41465F82687E3F9EBD181E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		8BF8BA1EE32A10E4A8FAA51CD80BC59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		C2CCE08E7F09387F44A17B711234ABAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46D97B202FA2F36871924D1601B4CEE;
+			remoteInfo = MYL_Jewelry;
+		};
+		EE1F219C828E6AF4BB4ADA25FEEB5457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000CE50D5860B215C63A7C50C136A72E /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		0045000A815AE77A82DC6F42B3D4E7CB /* Pods-FlashPrinter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashPrinter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		02443C57C4D27FB750A9C6534942F96F /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		048F19F95505775E1C7FFE65BF487A98 /* FP_UIView+FrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FP_UIView+FrameExtension.swift"; sourceTree = "<group>"; };
+		04A3C0E4ECA1E7222DCB51E5E6BCDC07 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		0762241D85B9F65A86B0737015B3B937 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		091D7EE62CCE93242438C691579C45EB /* FlashPrinter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlashPrinter.modulemap; sourceTree = "<group>"; };
+		092607C2C08FD3AD777CAF8B9E2B6CFA /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		0A3CA5D693B6FDC934D7E2C9B13C17DA /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		0D1E2F1753DDB036F049831F391C7339 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		0F82AD23D69E723B3AC9BFA2B5351E53 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		1035BD3C6BC8587F9CDB8FFD1C85651A /* FPLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FPLocalizable.strings; path = th.lproj/FPLocalizable.strings; sourceTree = "<group>"; };
+		15C1D0E0F74BB948516B607669BADD6A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		16CF2158177D150B9580E550EAB10C40 /* FD_BarcodeTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FD_BarcodeTools.swift; path = MYL_Jewelry/Classes/Support/FD_BarcodeTools.swift; sourceTree = "<group>"; };
+		178019E43D7DFF90634C394904B55D21 /* FPLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FPLocalizable.strings; path = en.lproj/FPLocalizable.strings; sourceTree = "<group>"; };
+		18298A355CB5EA6C090EB183CFA9EBEC /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		1A7C2BDCF0C19387B36AADC3352DAEF6 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		1D8E18D338C67B80598F88F08FA568FE /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		1F3B30431E6499C2D043696E0965EE73 /* Pods-FlashPrinter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlashPrinter_Example-dummy.m"; sourceTree = "<group>"; };
+		1FABDFD0EB3E5E37F721EB40B094CCC8 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		201B19415C9C7985D1AE19BA036E4016 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		2035477F889F7FFFB3753D1AC92ECAD1 /* MYL_Jewelry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-umbrella.h"; sourceTree = "<group>"; };
+		21B26A58AECD00D84F7338EB0776F203 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		253C8CD179BCF756C2AAE3DAF8AB9FF4 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		25D2D73FFD63B5DCF49632EBDBFC0E67 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		2AAF7D70BD5AC576AD1975599196B768 /* FlashPrinter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlashPrinter-Info.plist"; sourceTree = "<group>"; };
+		2B13A556C39CEEF2FEB2DC17D2193FFF /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		2C3B3A36AE25591D81321FE78DC4DDFC /* ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist"; sourceTree = "<group>"; };
+		2E46B55B14966B513E8EC256A385BD8B /* FlashPrinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlashPrinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E77CEC1FBC032660614465A0D25515D /* MYL_Jewelry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYL_Jewelry-dummy.m"; sourceTree = "<group>"; };
+		2FDCA9D47163AB0F94F14491325A253D /* FPPrintManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPPrintManager.swift; sourceTree = "<group>"; };
+		3272E63B368FD740660D59AF6CABD534 /* BLEService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BLEService.h; sourceTree = "<group>"; };
+		3624306D487FC3E72E55E48BEE01A55C /* MYL_Jewelry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MYL_Jewelry-Info.plist"; sourceTree = "<group>"; };
+		368E1FB886D722208974394C4BC6D769 /* FlashPrinter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashPrinter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E712D28E7D527DECD99A41703B6FE5 /* MYL_Jewelry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYL_Jewelry.release.xcconfig; sourceTree = "<group>"; };
+		39B1744ECA2237CC3B86F7EFCD2430F6 /* FPConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPConfiguration.swift; sourceTree = "<group>"; };
+		3BCD5FB1EE6E5C38DDBF63C106282D22 /* FlashPrinter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlashPrinter.release.xcconfig; sourceTree = "<group>"; };
+		40A05C16A18A251BA572782F01511FE6 /* FDLabelBaseData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FDLabelBaseData.swift; path = MYL_Jewelry/Classes/Draw/Model/FDLabelBaseData.swift; sourceTree = "<group>"; };
+		41B614C377A3870A408073D155BC2969 /* FPLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FPLocalizable.strings; path = "zh-Hans.lproj/FPLocalizable.strings"; sourceTree = "<group>"; };
+		43A9C941B871894EA9BF0674EE496442 /* Draw_UIView+FrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Draw_UIView+FrameExtension.swift"; path = "MYL_Jewelry/Classes/Support/Draw_UIView+FrameExtension.swift"; sourceTree = "<group>"; };
+		470CF8F8B392E7BDB107D46BF56D47D4 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		4A88E9408336DF4E0BAA7E31A0386407 /* BLEGATTService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BLEGATTService.h; sourceTree = "<group>"; };
+		4AE709BC1E2D21256FE17107231DEED6 /* FP_BaseeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FP_BaseeTableViewCell.swift; sourceTree = "<group>"; };
+		4B5F5D9E9819F4D71E527D923966D506 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4F6D902587124D53825EC090876478FC /* Pods-FlashPrinter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlashPrinter_Example-umbrella.h"; sourceTree = "<group>"; };
+		5119F4AD6919F23E359B81EE2D50D5E9 /* Pods-FlashPrinter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashPrinter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		566E20BA87599E2CB68F99DC2C3DF334 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5BE6318106DC98FBF54C21180687D352 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E17417F02F45CCF31A7A7BEFB03CA31 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		5E5A89A21852D44B22106D49533732F6 /* Pods-FlashPrinter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashPrinter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5FBD37458CD305579FE89D94C1527E4E /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		64DFA16AFCD9D08C1A2CA7E858A5A2FC /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		67C2B84A7974DAECBE35D32D6E9B038C /* FPBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPBaseViewController.swift; sourceTree = "<group>"; };
+		68B9472753DC58B6D60DDC6F885CD204 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		6A32AB8EDE7C73334E0787317D46E32E /* FPCentralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPCentralManager.swift; sourceTree = "<group>"; };
+		6F574DF6B38B41031D8F5824B56AAD8D /* Pods-FlashPrinter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashPrinter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FA449A9F23F6EF1BDFE9C3450A8C337 /* FPBaseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPBaseModel.swift; sourceTree = "<group>"; };
+		732E164EDD3264584B024A28C42A6A4B /* MYL_Jewelry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-prefix.pch"; sourceTree = "<group>"; };
+		744170B4559595E1171B6AB7E44C1E7B /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		751D8D828F76B3B1AC79B6CBBEBAD7CB /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		762034B51BC79841483F5E4D0CAA0210 /* Pods-FlashPrinter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashPrinter_Tests-Info.plist"; sourceTree = "<group>"; };
+		769DA2579DC3EE7FD64384E2DC0E0178 /* FPSelectPrinterViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSelectPrinterViewModel.swift; sourceTree = "<group>"; };
+		7934D16A3B6CA373D2C5AC2254EC4DDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A02AA011DE3E9F3F3E6185F9F64BE0C /* Pods-FlashPrinter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashPrinter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A53D1DBE509DBBFE3DC76C1A8777294 /* FlashPrinter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlashPrinter-dummy.m"; sourceTree = "<group>"; };
+		7B53258830D5681D44145C0E022B5FFE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		7BA71C4BE6CDC4090F8F5957BEB1B8F9 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		7CE0AB88AC85AE9874CDE554C75C41D3 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		7F92D35469F1290A5A82A4AFE5BE6859 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		7FEFD845CEE8EFE31EC72CF17541D7B1 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		83BC035F89CE7DDC7F7D8FDA104119C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		83D2FDAEC879ED6D7C5D9597A3EAA48C /* Pods-FlashPrinter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlashPrinter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		856E45C4DBEBAC537DD4DDF97EA342F2 /* FlashPrinter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlashPrinter.debug.xcconfig; sourceTree = "<group>"; };
+		857C65A174DC7FBD30B755227A78F390 /* Printer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Printer.framework; path = FlashPrinter/Classes/Alison/Printer.framework; sourceTree = "<group>"; };
+		860D673E2CB251CBDB85738C8FCA685E /* Printer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		892A764C8CF490BB48E61252817D150A /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C83FF057425314D58FB9692DCD90B10 /* FPBaseProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPBaseProtocol.swift; sourceTree = "<group>"; };
+		8C9C4F824313028B5F797119D2EFC049 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8D450FF2B655DAB7E60CB2EFBDA80D78 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		91532B9E76FCC33026BC4949ADED1902 /* MYL_Jewelry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYL_Jewelry.debug.xcconfig; sourceTree = "<group>"; };
+		92284AFF4DA112F82C85BE6C578CB14B /* FP_Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FP_Bundle+Extension.swift"; sourceTree = "<group>"; };
+		9514530E4D72EE09F7D590C66956BC8E /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		95D0BF89DABDBE401C340BDEB85FCE10 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		96EE2694D72479F226B68685240627FF /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9944AD7C9F3412EDF6A0D6DE2AF2C735 /* Pods_FlashPrinter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashPrinter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		994C415DFEC3EF9ABAC8D59A1844DA85 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		9B1A91D0FF5FF90B28E85BB5213B0E6F /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4D084B879995BF1B9946F546009803 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		9CCC07C84E80B11C4A26E4377EF4DB00 /* MYL_Jewelry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYL_Jewelry.modulemap; sourceTree = "<group>"; };
+		9D4238C236A4300484AEB0D09628D7CB /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYL_Jewelry.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C0A7E9E180C87C158ED72752011605 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		A4D1B100330BFA9B01EC5C4F122135A7 /* FPPrintViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPPrintViewController.swift; sourceTree = "<group>"; };
+		A4D530125AD79BD56908EE5935AA9CE2 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		A6DCC324A9585119CAD9BCE95A74D695 /* FlashPrinter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlashPrinter-prefix.pch"; sourceTree = "<group>"; };
+		A6F4F5DDB24DC85E73EE6A6CDDD4DFF9 /* Printer */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = Printer; sourceTree = "<group>"; };
+		A8E0DF8DE9600C683036A02C957A216A /* MYL_Jewelry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYL_Jewelry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5D9E5656B2A46EAB880F2AA30DC118 /* Pods-FlashPrinter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlashPrinter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD9FDB42D01B2378404C7F1A8A97563F /* MYL_Jewelry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYL_Jewelry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0877D0C17A297238E2863DD01337F58 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		B12AC3BB2F7D5058A3B59C45A14FBF8F /* FP_UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FP_UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B12F6BD7B1F5719AC710291A8EBD6E4B /* FP_Define.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FP_Define.swift; sourceTree = "<group>"; };
+		B2F49F947384D2C70C118DF5DF15A99C /* Pods-FlashPrinter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlashPrinter_Tests-dummy.m"; sourceTree = "<group>"; };
+		B3AF80481C63474EC055AF63DFB97934 /* Pods-FlashPrinter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashPrinter_Example-Info.plist"; sourceTree = "<group>"; };
+		B40121BCDF435DF883A735012105C952 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		B6C3489F06BCDF2F3D52B2902AC44005 /* FlashPrinter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlashPrinter-umbrella.h"; sourceTree = "<group>"; };
+		B89484AE61E9943459EA7689DCF6372F /* Pods_FlashPrinter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashPrinter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D30D195B1E80E3717C14C987BA1997 /* Pods-FlashPrinter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlashPrinter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C41508C6D66E6FAD7642C939F0208F0B /* FPPeripheralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPPeripheralManager.swift; sourceTree = "<group>"; };
+		C744E65DEE9D804BE97ED4215D60A5C8 /* FPTipsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPTipsViewModel.swift; sourceTree = "<group>"; };
+		C96BD753516E16B10BA24F6CDD5A7946 /* FlashPrinter.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = FlashPrinter.xcassets; path = FlashPrinter/Assets/FlashPrinter.xcassets; sourceTree = "<group>"; };
+		CB827F8EBBAB72D79B418754809A6B0A /* Pods-FlashPrinter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlashPrinter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB8BF46A69D3FC49FFB24141A08DC78 /* FPSelectPrinterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSelectPrinterView.swift; sourceTree = "<group>"; };
+		CDBEE9507E0A9150AF36FBAF6BB0C84D /* FlashPrinter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FlashPrinter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D04AA27A0EFF80C24664FCE11B4317E2 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		D36C7D282991B34D7601F9F0B818D1CD /* Pods-FlashPrinter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashPrinter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D6A590676FC638403650320856593B7C /* FPSelectPrinterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSelectPrinterViewController.swift; sourceTree = "<group>"; };
+		D7D75C9F4D74AD34ACA56CAFE9DF9626 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		D8000AE29E140E660F0567012B78AC33 /* FPPeripheralCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPPeripheralCell.swift; sourceTree = "<group>"; };
+		DD280EA4DC6EF1C7977CF7EEF90C980D /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		E00C3D35D3297EF8EA93B3FAAC4EA70E /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		E21E2ACCD90654C3BA13DDE1EC6305C6 /* Draw_Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Draw_Bundle+Extension.swift"; path = "MYL_Jewelry/Classes/Support/Draw_Bundle+Extension.swift"; sourceTree = "<group>"; };
+		E5353CD0A1BB5B23B522A7DA8451F667 /* Pods-FlashPrinter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlashPrinter_Tests.modulemap"; sourceTree = "<group>"; };
+		E58FE66EFF7E4227356FC71A12AC680B /* FPBaseWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPBaseWindow.swift; sourceTree = "<group>"; };
+		E7271D3814442FF4485D97513E935206 /* FPAlisonService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPAlisonService.swift; sourceTree = "<group>"; };
+		E77091DF407F57B97E1C844D825E1379 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		E7D957CF928784DC47B3AE47B8AB9B6C /* FPServiceBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPServiceBase.swift; sourceTree = "<group>"; };
+		EC432AE909DE29DFA9D7CEA41F5B931F /* FPPrintTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPPrintTool.swift; sourceTree = "<group>"; };
+		EE95A3F3C3CCFF0E32E5B1919AA96D2C /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		EF3B1A77C0429897C70AD10321F2DB33 /* MYL_Jewelry.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MYL_Jewelry.xcassets; path = MYL_Jewelry/Assets/MYL_Jewelry.xcassets; sourceTree = "<group>"; };
+		EFAB1437717A616372FA49F585AA8149 /* Pods-FlashPrinter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlashPrinter_Example.modulemap"; sourceTree = "<group>"; };
+		F07E1BE54155C1F31D7DF98F57EBE654 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		F16CA8F266B11A5EB2CA8D316421D75E /* FlashDrawManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlashDrawManager.swift; path = MYL_Jewelry/Classes/Manager/FlashDrawManager.swift; sourceTree = "<group>"; };
+		F2339FA79CCDAA66775B4FCF0CB2C69A /* FPTipsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPTipsView.swift; sourceTree = "<group>"; };
+		FA3008F096A580B75371EAF4D6A82411 /* ResourceBundle-FlashPrinter-FlashPrinter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FlashPrinter-FlashPrinter-Info.plist"; sourceTree = "<group>"; };
+		FC484288DD8A2ED6318A7352AF281A5B /* FlashDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlashDraw.swift; path = MYL_Jewelry/Classes/Draw/FlashDraw.swift; sourceTree = "<group>"; };
+		FD4C999BD505B8FFBDB8A6451EC8A263 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2CA42CC754BA7F7FCC0443B0444B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C94BCD2E35A3D343191B63F7DC6F5C6 /* CoreGraphics.framework in Frameworks */,
+				73DDC2C557CB7AFB78BD550591EABD82 /* Foundation.framework in Frameworks */,
+				BFC31D1449DC5DB64AF68E4F9B88311C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F4432E4A0FA6DFF0995ED3E97E081AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0ED21F80BE264C865302C98B2E043AA /* Foundation.framework in Frameworks */,
+				0D636F5426BA270D940DDDBE25551A2A /* MBProgressHUD.framework in Frameworks */,
+				45487ECEC505F8BA5FA9DB2EB1EA45E6 /* MYL_Jewelry.framework in Frameworks */,
+				9B75DD733038D28753A6698D754D5BCB /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EA92C6C644D0D044AF63149FDB5B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978F50A904ECBA3D55E9CFDCC63C269D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA680C327B2C843879C558769A0399AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE926EA721855F91957821D149D0C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0F51BBA71B389CF690EED4E25D6392 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3877C13F5B575A30E49E95370FF5C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD21449BAE2887F0BC10124F80FB063 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DE9D638E926D87CAB79B202A0B6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E452BB0A818AE84383B63EFB173B03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EA0C886F1F07C2A5F9D31A20F2ED41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040B97E57DB8B9B439E9CCB115D39D82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				091D7EE62CCE93242438C691579C45EB /* FlashPrinter.modulemap */,
+				7A53D1DBE509DBBFE3DC76C1A8777294 /* FlashPrinter-dummy.m */,
+				2AAF7D70BD5AC576AD1975599196B768 /* FlashPrinter-Info.plist */,
+				A6DCC324A9585119CAD9BCE95A74D695 /* FlashPrinter-prefix.pch */,
+				B6C3489F06BCDF2F3D52B2902AC44005 /* FlashPrinter-umbrella.h */,
+				856E45C4DBEBAC537DD4DDF97EA342F2 /* FlashPrinter.debug.xcconfig */,
+				3BCD5FB1EE6E5C38DDBF63C106282D22 /* FlashPrinter.release.xcconfig */,
+				FA3008F096A580B75371EAF4D6A82411 /* ResourceBundle-FlashPrinter-FlashPrinter-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FlashPrinter";
+			sourceTree = "<group>";
+		};
+		076D968F62DB710131DDBEFB9D548BA1 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				566E20BA87599E2CB68F99DC2C3DF334 /* MBProgressHUD.h */,
+				4B5F5D9E9819F4D71E527D923966D506 /* MBProgressHUD.m */,
+				2140AA752013413E7A6DFF58494141CF /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		15ECB648D9EAD06FDC6CF2D854AE52D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AE709BC1E2D21256FE17107231DEED6 /* FP_BaseeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E39402E8BD646EA61A3B1D59CDA63DD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				39B1744ECA2237CC3B86F7EFCD2430F6 /* FPConfiguration.swift */,
+				91160EC87D03E9CCFFDA4BE69A014D43 /* Base */,
+				CA3B18EEF35BB2E0DF3D1378597FD086 /* Extension */,
+				A8A10EE81241D0F4D545404E25A644D5 /* Localizable */,
+				5D9935F5E60D939D543AD1C58BC65B89 /* Manager */,
+				CE71AA1D939F4AE43143967B256A6D81 /* Service */,
+				C1CCB53D09C398716C918786B6D0F0ED /* Tools */,
+			);
+			name = Support;
+			path = FlashPrinter/Classes/Support;
+			sourceTree = "<group>";
+		};
+		210B8D8544B873645CA07BB8B8833126 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				83BC035F89CE7DDC7F7D8FDA104119C4 /* CoreGraphics.framework */,
+				D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */,
+				8C9C4F824313028B5F797119D2EFC049 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2140AA752013413E7A6DFF58494141CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21B26A58AECD00D84F7338EB0776F203 /* MBProgressHUD.modulemap */,
+				64DFA16AFCD9D08C1A2CA7E858A5A2FC /* MBProgressHUD-dummy.m */,
+				201B19415C9C7985D1AE19BA036E4016 /* MBProgressHUD-Info.plist */,
+				253C8CD179BCF756C2AAE3DAF8AB9FF4 /* MBProgressHUD-prefix.pch */,
+				D7D75C9F4D74AD34ACA56CAFE9DF9626 /* MBProgressHUD-umbrella.h */,
+				EE95A3F3C3CCFF0E32E5B1919AA96D2C /* MBProgressHUD.debug.xcconfig */,
+				15C1D0E0F74BB948516B607669BADD6A /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		21C55C5F35EA535EEED3A4BEC9A9036F /* business */ = {
+			isa = PBXGroup;
+			children = (
+				C211B0908F83D8876E31E399A46CAF99 /* Print */,
+				3A8F60B6C60E6A208855452F6CB2FB7C /* Select */,
+			);
+			name = business;
+			path = FlashPrinter/Classes/business;
+			sourceTree = "<group>";
+		};
+		3A8F60B6C60E6A208855452F6CB2FB7C /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				612D1C1F97477559FA0926BE0E05DB24 /* Controller */,
+				A5E7E799E398878FBF415782C1B810C6 /* View */,
+				DBC6ECD77DC943BFE269340194226F67 /* ViewModel */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
+		3A90FE6420CC93E1A998BCE067B18FCD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E9408336DF4E0BAA7E31A0386407 /* BLEGATTService.h */,
+				3272E63B368FD740660D59AF6CABD534 /* BLEService.h */,
+				860D673E2CB251CBDB85738C8FCA685E /* Printer.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3B3E4EB9D8CD60E01618AD2767CEFE52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FA449A9F23F6EF1BDFE9C3450A8C337 /* FPBaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D1DBA22AE7F4D1DF1F523014BB1B55F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C744E65DEE9D804BE97ED4215D60A5C8 /* FPTipsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D9935F5E60D939D543AD1C58BC65B89 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C41508C6D66E6FAD7642C939F0208F0B /* FPPeripheralManager.swift */,
+				2FDCA9D47163AB0F94F14491325A253D /* FPPrintManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		612D1C1F97477559FA0926BE0E05DB24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6A590676FC638403650320856593B7C /* FPSelectPrinterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6563D8A166CA3ED54A8060B1BC1B3A45 /* Printer.framework */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F5DDB24DC85E73EE6A6CDDD4DFF9 /* Printer */,
+				3A90FE6420CC93E1A998BCE067B18FCD /* Headers */,
+				A4B4562851F5D1ECEA24DD324367F3B7 /* Modules */,
+			);
+			path = Printer.framework;
+			sourceTree = "<group>";
+		};
+		728CDB26AE06B9E99DD15335A667D5FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D1B100330BFA9B01EC5C4F122135A7 /* FPPrintViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C35977A2E7768BE77893DD90E2659FD /* Pods-FlashPrinter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB1437717A616372FA49F585AA8149 /* Pods-FlashPrinter_Example.modulemap */,
+				CB827F8EBBAB72D79B418754809A6B0A /* Pods-FlashPrinter_Example-acknowledgements.markdown */,
+				0045000A815AE77A82DC6F42B3D4E7CB /* Pods-FlashPrinter_Example-acknowledgements.plist */,
+				1F3B30431E6499C2D043696E0965EE73 /* Pods-FlashPrinter_Example-dummy.m */,
+				B9D30D195B1E80E3717C14C987BA1997 /* Pods-FlashPrinter_Example-frameworks.sh */,
+				B3AF80481C63474EC055AF63DFB97934 /* Pods-FlashPrinter_Example-Info.plist */,
+				4F6D902587124D53825EC090876478FC /* Pods-FlashPrinter_Example-umbrella.h */,
+				5119F4AD6919F23E359B81EE2D50D5E9 /* Pods-FlashPrinter_Example.debug.xcconfig */,
+				7A02AA011DE3E9F3F3E6185F9F64BE0C /* Pods-FlashPrinter_Example.release.xcconfig */,
+			);
+			name = "Pods-FlashPrinter_Example";
+			path = "Target Support Files/Pods-FlashPrinter_Example";
+			sourceTree = "<group>";
+		};
+		7CC408A756EB0DDEF470E849D882FEF4 /* FlashPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				C96BD753516E16B10BA24F6CDD5A7946 /* FlashPrinter.xcassets */,
+				7D715F6FBCFA6E4FB37800BF31E6B68A /* Alison */,
+				21C55C5F35EA535EEED3A4BEC9A9036F /* business */,
+				87DD1D57927107D9B7492CA2D24AB59A /* Frameworks */,
+				C7A9942787B3226FD8F425658AFED23B /* Pod */,
+				1E39402E8BD646EA61A3B1D59CDA63DD /* Support */,
+				040B97E57DB8B9B439E9CCB115D39D82 /* Support Files */,
+			);
+			name = FlashPrinter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7D715F6FBCFA6E4FB37800BF31E6B68A /* Alison */ = {
+			isa = PBXGroup;
+			children = (
+				6563D8A166CA3ED54A8060B1BC1B3A45 /* Printer.framework */,
+			);
+			name = Alison;
+			path = FlashPrinter/Classes/Alison;
+			sourceTree = "<group>";
+		};
+		7F63DC19B236A9C5FACA15E395B8CA21 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D1E2F1753DDB036F049831F391C7339 /* Constraint.swift */,
+				B0877D0C17A297238E2863DD01337F58 /* ConstraintAttributes.swift */,
+				95D0BF89DABDBE401C340BDEB85FCE10 /* ConstraintConfig.swift */,
+				7BA71C4BE6CDC4090F8F5957BEB1B8F9 /* ConstraintConstantTarget.swift */,
+				9514530E4D72EE09F7D590C66956BC8E /* ConstraintDescription.swift */,
+				8D450FF2B655DAB7E60CB2EFBDA80D78 /* ConstraintDSL.swift */,
+				F07E1BE54155C1F31D7DF98F57EBE654 /* ConstraintInsets.swift */,
+				A4D530125AD79BD56908EE5935AA9CE2 /* ConstraintInsetTarget.swift */,
+				7B53258830D5681D44145C0E022B5FFE /* ConstraintItem.swift */,
+				A4C0A7E9E180C87C158ED72752011605 /* ConstraintLayoutGuide.swift */,
+				994C415DFEC3EF9ABAC8D59A1844DA85 /* ConstraintLayoutGuide+Extensions.swift */,
+				1A7C2BDCF0C19387B36AADC3352DAEF6 /* ConstraintLayoutGuideDSL.swift */,
+				000CE50D5860B215C63A7C50C136A72E /* ConstraintLayoutSupport.swift */,
+				0F82AD23D69E723B3AC9BFA2B5351E53 /* ConstraintLayoutSupportDSL.swift */,
+				1D8E18D338C67B80598F88F08FA568FE /* ConstraintMaker.swift */,
+				18298A355CB5EA6C090EB183CFA9EBEC /* ConstraintMakerEditable.swift */,
+				D04AA27A0EFF80C24664FCE11B4317E2 /* ConstraintMakerExtendable.swift */,
+				25D2D73FFD63B5DCF49632EBDBFC0E67 /* ConstraintMakerFinalizable.swift */,
+				02443C57C4D27FB750A9C6534942F96F /* ConstraintMakerPriortizable.swift */,
+				9D4238C236A4300484AEB0D09628D7CB /* ConstraintMakerRelatable.swift */,
+				7CE0AB88AC85AE9874CDE554C75C41D3 /* ConstraintMultiplierTarget.swift */,
+				751D8D828F76B3B1AC79B6CBBEBAD7CB /* ConstraintOffsetTarget.swift */,
+				1FABDFD0EB3E5E37F721EB40B094CCC8 /* ConstraintPriority.swift */,
+				04A3C0E4ECA1E7222DCB51E5E6BCDC07 /* ConstraintPriorityTarget.swift */,
+				744170B4559595E1171B6AB7E44C1E7B /* ConstraintRelatableTarget.swift */,
+				7F92D35469F1290A5A82A4AFE5BE6859 /* ConstraintRelation.swift */,
+				B40121BCDF435DF883A735012105C952 /* ConstraintView.swift */,
+				0A3CA5D693B6FDC934D7E2C9B13C17DA /* ConstraintView+Extensions.swift */,
+				2B13A556C39CEEF2FEB2DC17D2193FFF /* ConstraintViewDSL.swift */,
+				0762241D85B9F65A86B0737015B3B937 /* Debugging.swift */,
+				E77091DF407F57B97E1C844D825E1379 /* LayoutConstraint.swift */,
+				470CF8F8B392E7BDB107D46BF56D47D4 /* LayoutConstraintItem.swift */,
+				DD280EA4DC6EF1C7977CF7EEF90C980D /* Typealiases.swift */,
+				68B9472753DC58B6D60DDC6F885CD204 /* UILayoutSupport+Extensions.swift */,
+				FA3C0EF6BF8DDC682C33F27051E34D72 /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		851447BFF7398335BAFE3767FE6B6C42 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CCC07C84E80B11C4A26E4377EF4DB00 /* MYL_Jewelry.modulemap */,
+				2E77CEC1FBC032660614465A0D25515D /* MYL_Jewelry-dummy.m */,
+				3624306D487FC3E72E55E48BEE01A55C /* MYL_Jewelry-Info.plist */,
+				732E164EDD3264584B024A28C42A6A4B /* MYL_Jewelry-prefix.pch */,
+				2035477F889F7FFFB3753D1AC92ECAD1 /* MYL_Jewelry-umbrella.h */,
+				91532B9E76FCC33026BC4949ADED1902 /* MYL_Jewelry.debug.xcconfig */,
+				36E712D28E7D527DECD99A41703B6FE5 /* MYL_Jewelry.release.xcconfig */,
+				2C3B3A36AE25591D81321FE78DC4DDFC /* ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MYL_Jewelry";
+			sourceTree = "<group>";
+		};
+		87DD1D57927107D9B7492CA2D24AB59A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				857C65A174DC7FBD30B755227A78F390 /* Printer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8976363766D9475C414ABBB88995A9A4 /* Pods-FlashPrinter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E5353CD0A1BB5B23B522A7DA8451F667 /* Pods-FlashPrinter_Tests.modulemap */,
+				AD5D9E5656B2A46EAB880F2AA30DC118 /* Pods-FlashPrinter_Tests-acknowledgements.markdown */,
+				6F574DF6B38B41031D8F5824B56AAD8D /* Pods-FlashPrinter_Tests-acknowledgements.plist */,
+				B2F49F947384D2C70C118DF5DF15A99C /* Pods-FlashPrinter_Tests-dummy.m */,
+				762034B51BC79841483F5E4D0CAA0210 /* Pods-FlashPrinter_Tests-Info.plist */,
+				83D2FDAEC879ED6D7C5D9597A3EAA48C /* Pods-FlashPrinter_Tests-umbrella.h */,
+				D36C7D282991B34D7601F9F0B818D1CD /* Pods-FlashPrinter_Tests.debug.xcconfig */,
+				5E5A89A21852D44B22106D49533732F6 /* Pods-FlashPrinter_Tests.release.xcconfig */,
+			);
+			name = "Pods-FlashPrinter_Tests";
+			path = "Target Support Files/Pods-FlashPrinter_Tests";
+			sourceTree = "<group>";
+		};
+		8C664C1C1B660FDFA2BC1EDAB894038F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368E1FB886D722208974394C4BC6D769 /* FlashPrinter.bundle */,
+				2E46B55B14966B513E8EC256A385BD8B /* FlashPrinter.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */,
+				AD9FDB42D01B2378404C7F1A8A97563F /* MYL_Jewelry.framework */,
+				B89484AE61E9943459EA7689DCF6372F /* Pods_FlashPrinter_Example.framework */,
+				9944AD7C9F3412EDF6A0D6DE2AF2C735 /* Pods_FlashPrinter_Tests.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CAE1DE6CD9DF5B9A370B4AC8D6425E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2339FA79CCDAA66775B4FCF0CB2C69A /* FPTipsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91160EC87D03E9CCFFDA4BE69A014D43 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				67C2B84A7974DAECBE35D32D6E9B038C /* FPBaseViewController.swift */,
+				E58FE66EFF7E4227356FC71A12AC680B /* FPBaseWindow.swift */,
+				E7D957CF928784DC47B3AE47B8AB9B6C /* FPServiceBase.swift */,
+				3B3E4EB9D8CD60E01618AD2767CEFE52 /* Model */,
+				9D1B71BB313A313C8C29F4E92D671543 /* Protocol */,
+				15ECB648D9EAD06FDC6CF2D854AE52D9 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9D1B71BB313A313C8C29F4E92D671543 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8C83FF057425314D58FB9692DCD90B10 /* FPBaseProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A4B4562851F5D1ECEA24DD324367F3B7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				092607C2C08FD3AD777CAF8B9E2B6CFA /* module.modulemap */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A5E7E799E398878FBF415782C1B810C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8000AE29E140E660F0567012B78AC33 /* FPPeripheralCell.swift */,
+				CBB8BF46A69D3FC49FFB24141A08DC78 /* FPSelectPrinterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6EAE95819048CFB680DFFC1A8ADB6C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE6318106DC98FBF54C21180687D352 /* MBProgressHUD.framework */,
+				A8E0DF8DE9600C683036A02C957A216A /* MYL_Jewelry.framework */,
+				9B1A91D0FF5FF90B28E85BB5213B0E6F /* SnapKit.framework */,
+				210B8D8544B873645CA07BB8B8833126 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8A10EE81241D0F4D545404E25A644D5 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F57FFA7F9341721E8FF3D33334828 /* FPLocalizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		C1CCB53D09C398716C918786B6D0F0ED /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B12F6BD7B1F5719AC710291A8EBD6E4B /* FP_Define.swift */,
+				EC432AE909DE29DFA9D7CEA41F5B931F /* FPPrintTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C211B0908F83D8876E31E399A46CAF99 /* Print */ = {
+			isa = PBXGroup;
+			children = (
+				728CDB26AE06B9E99DD15335A667D5FF /* Controller */,
+				8CAE1DE6CD9DF5B9A370B4AC8D6425E9 /* View */,
+				5D1DBA22AE7F4D1DF1F523014BB1B55F /* ViewModel */,
+			);
+			path = Print;
+			sourceTree = "<group>";
+		};
+		C7A9942787B3226FD8F425658AFED23B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CDBEE9507E0A9150AF36FBAF6BB0C84D /* FlashPrinter.podspec */,
+				FD4C999BD505B8FFBDB8A6451EC8A263 /* LICENSE */,
+				7934D16A3B6CA373D2C5AC2254EC4DDB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CA3B18EEF35BB2E0DF3D1378597FD086 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				92284AFF4DA112F82C85BE6C578CB14B /* FP_Bundle+Extension.swift */,
+				B12AC3BB2F7D5058A3B59C45A14FBF8F /* FP_UIColor+Extension.swift */,
+				048F19F95505775E1C7FFE65BF487A98 /* FP_UIView+FrameExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CA7598EB2C6647510D2936F5DFF57D30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				076D968F62DB710131DDBEFB9D548BA1 /* MBProgressHUD */,
+				E26653B75C0E1A2E11EF45E96A04BF59 /* MYL_Jewelry */,
+				7F63DC19B236A9C5FACA15E395B8CA21 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE71AA1D939F4AE43143967B256A6D81 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E7271D3814442FF4485D97513E935206 /* FPAlisonService.swift */,
+				6A32AB8EDE7C73334E0787317D46E32E /* FPCentralManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DD765090B01F6E3B7462514D411A15BF /* Development Pods */,
+				A6EAE95819048CFB680DFFC1A8ADB6C5 /* Frameworks */,
+				CA7598EB2C6647510D2936F5DFF57D30 /* Pods */,
+				8C664C1C1B660FDFA2BC1EDAB894038F /* Products */,
+				E75161E8FED66231D89E5971C871E206 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC6ECD77DC943BFE269340194226F67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				769DA2579DC3EE7FD64384E2DC0E0178 /* FPSelectPrinterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD765090B01F6E3B7462514D411A15BF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CC408A756EB0DDEF470E849D882FEF4 /* FlashPrinter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E26653B75C0E1A2E11EF45E96A04BF59 /* MYL_Jewelry */ = {
+			isa = PBXGroup;
+			children = (
+				E21E2ACCD90654C3BA13DDE1EC6305C6 /* Draw_Bundle+Extension.swift */,
+				43A9C941B871894EA9BF0674EE496442 /* Draw_UIView+FrameExtension.swift */,
+				16CF2158177D150B9580E550EAB10C40 /* FD_BarcodeTools.swift */,
+				40A05C16A18A251BA572782F01511FE6 /* FDLabelBaseData.swift */,
+				FC484288DD8A2ED6318A7352AF281A5B /* FlashDraw.swift */,
+				F16CA8F266B11A5EB2CA8D316421D75E /* FlashDrawManager.swift */,
+				FD4F21793B7FD54436B796F3014B65D9 /* Resources */,
+				851447BFF7398335BAFE3767FE6B6C42 /* Support Files */,
+			);
+			path = MYL_Jewelry;
+			sourceTree = "<group>";
+		};
+		E75161E8FED66231D89E5971C871E206 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C35977A2E7768BE77893DD90E2659FD /* Pods-FlashPrinter_Example */,
+				8976363766D9475C414ABBB88995A9A4 /* Pods-FlashPrinter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA3C0EF6BF8DDC682C33F27051E34D72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96EE2694D72479F226B68685240627FF /* SnapKit.modulemap */,
+				7FEFD845CEE8EFE31EC72CF17541D7B1 /* SnapKit-dummy.m */,
+				E00C3D35D3297EF8EA93B3FAAC4EA70E /* SnapKit-Info.plist */,
+				5FBD37458CD305579FE89D94C1527E4E /* SnapKit-prefix.pch */,
+				892A764C8CF490BB48E61252817D150A /* SnapKit-umbrella.h */,
+				9C4D084B879995BF1B9946F546009803 /* SnapKit.debug.xcconfig */,
+				5E17417F02F45CCF31A7A7BEFB03CA31 /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		FD4F21793B7FD54436B796F3014B65D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF3B1A77C0429897C70AD10321F2DB33 /* MYL_Jewelry.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BDA0EA6445D04359C30C5A16964BE4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C59D7DA2EE90689A19C8D5B6EF9CE /* MYL_Jewelry-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4747649C5F92ED2931262B6AA2C2D8A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46BE585BA36AC391634B96E0A0BD26E /* BLEGATTService.h in Headers */,
+				D9249F46C81289A9FCF50FAB8A249539 /* BLEService.h in Headers */,
+				D12BD56EBECAFA29D5F8E707E5435F42 /* FlashPrinter-umbrella.h in Headers */,
+				1CB3BD487D9E849ACD9E177305461BA2 /* Printer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D121E48D535B4294FAB02AE1CB607C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F701B2AB3B3C43415E4535F160960 /* Pods-FlashPrinter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFCA7D17672B811F719C4C34193091 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E7258552AD2102912635D68BC7AB1B /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77CF673D8595FBA28104E963C089C12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E94FDAB71714F14FE19DE880A83FB7 /* Pods-FlashPrinter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D278E326A7BC449B8E4BFC4E0F34C3CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772E99C12C7FA639B61DF3477EDB7332 /* MBProgressHUD-umbrella.h in Headers */,
+				0788E28086777539C40837F21B937CBC /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4420B70C2838B3CC17036609B237A685 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				91EFCA7D17672B811F719C4C34193091 /* Headers */,
+				54219A85CA7E457C28192CF9771CE461 /* Sources */,
+				85EA92C6C644D0D044AF63149FDB5B39 /* Frameworks */,
+				D7051E69D2DB1A2BD3A392244B960966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D21C5F7ED4CE0A54AC1004653C3D912 /* Pods-FlashPrinter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC1909CD5BDEDC133B61F45768D6C95 /* Build configuration list for PBXNativeTarget "Pods-FlashPrinter_Tests" */;
+			buildPhases = (
+				A77CF673D8595FBA28104E963C089C12 /* Headers */,
+				E434B4480002657176F21A3806F5731C /* Sources */,
+				E3877C13F5B575A30E49E95370FF5C39 /* Frameworks */,
+				4D826C2CD8AC371BA01B931A80524EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E5F17F332FB47A8FB8A70BFE5B41707 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlashPrinter_Tests";
+			productName = "Pods-FlashPrinter_Tests";
+			productReference = 9944AD7C9F3412EDF6A0D6DE2AF2C735 /* Pods_FlashPrinter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7067AE046CA96B41E8ED054B86677796 /* FlashPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0BF30120A355D71D30E17D285012FE /* Build configuration list for PBXNativeTarget "FlashPrinter" */;
+			buildPhases = (
+				4747649C5F92ED2931262B6AA2C2D8A6 /* Headers */,
+				673CE3F33DAB7485754E66B30C440634 /* Sources */,
+				5F4432E4A0FA6DFF0995ED3E97E081AA /* Frameworks */,
+				AFD6D747DD4D15FE6C393B81D34FF457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B0E6E5FC5F928257F4E2A94D670522 /* PBXTargetDependency */,
+				375A5FE534A87A969BB3415DF00EC66E /* PBXTargetDependency */,
+				C3672AA90C1D76D11406A0735747B4D6 /* PBXTargetDependency */,
+				039C7749C379BE83AEC01AD5C8FE7061 /* PBXTargetDependency */,
+			);
+			name = FlashPrinter;
+			productName = FlashPrinter;
+			productReference = 2E46B55B14966B513E8EC256A385BD8B /* FlashPrinter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152ADF275B5451CA4BBFF4284670167B /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				D278E326A7BC449B8E4BFC4E0F34C3CA /* Headers */,
+				0CC6DA9D5105FA5F2647D5D3069B269C /* Sources */,
+				5D2CA42CC754BA7F7FCC0443B0444B08 /* Frameworks */,
+				F018F3E3FF6E8F66EC52D6CC5093AB7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DD0371C73E0DC78AC440AFFED426977 /* MYL_Jewelry-MYL_Jewelry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A5941DD3DFC6BE08B001ABAD5ABD8B /* Build configuration list for PBXNativeTarget "MYL_Jewelry-MYL_Jewelry" */;
+			buildPhases = (
+				3DE7A54DB1E1C165B891272BCDFB4F39 /* Sources */,
+				F7EA0C886F1F07C2A5F9D31A20F2ED41 /* Frameworks */,
+				69D7EC5AFFB5B2A215CB3AE601F23F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MYL_Jewelry-MYL_Jewelry";
+			productName = "MYL_Jewelry-MYL_Jewelry";
+			productReference = A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B50B93C27E1234C2BAAAAB5054CC8B9F /* FlashPrinter-FlashPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3791C47863826E95F9C4A179B0B5D55D /* Build configuration list for PBXNativeTarget "FlashPrinter-FlashPrinter" */;
+			buildPhases = (
+				9B6D62E3822F1E4223DE5E5C8ECEEFD8 /* Sources */,
+				CA680C327B2C843879C558769A0399AA /* Frameworks */,
+				9F4624C1D2C7BF89DE291912615E01A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlashPrinter-FlashPrinter";
+			productName = "FlashPrinter-FlashPrinter";
+			productReference = 368E1FB886D722208974394C4BC6D769 /* FlashPrinter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C46D97B202FA2F36871924D1601B4CEE /* MYL_Jewelry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37D5181994F734A107D0AB4AAFFCAB3 /* Build configuration list for PBXNativeTarget "MYL_Jewelry" */;
+			buildPhases = (
+				1BDA0EA6445D04359C30C5A16964BE4C /* Headers */,
+				C7F5EF3E93BAD6DE69659E7E4B4CDDB8 /* Sources */,
+				E74DE9D638E926D87CAB79B202A0B6E9 /* Frameworks */,
+				024EB8F31AF5B848392A997C824075A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3E0F9B75C46D0E510DE7FADAA0DC87 /* PBXTargetDependency */,
+			);
+			name = MYL_Jewelry;
+			productName = MYL_Jewelry;
+			productReference = AD9FDB42D01B2378404C7F1A8A97563F /* MYL_Jewelry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEF076602E93F99FF0DE42937227C48B /* Pods-FlashPrinter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1C44B26B7C2BB79BF61AE0D233C2C5 /* Build configuration list for PBXNativeTarget "Pods-FlashPrinter_Example" */;
+			buildPhases = (
+				69D121E48D535B4294FAB02AE1CB607C /* Headers */,
+				0177D809B4286D1396F01F999A59F04F /* Sources */,
+				DBE926EA721855F91957821D149D0C2C /* Frameworks */,
+				5380E35A8D8DBBB8F5E14C89E2F3A7BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BBA7D0BCE97A5E592AEE8FF698591AC /* PBXTargetDependency */,
+				0654E0D7E3A98B5EC6ED538DC4E7C333 /* PBXTargetDependency */,
+				4F89DCC66CD1769AFA260B0ACC88CA96 /* PBXTargetDependency */,
+				6EF53D29A822AF68C06BC75048AAE05A /* PBXTargetDependency */,
+			);
+			name = "Pods-FlashPrinter_Example";
+			productName = "Pods-FlashPrinter_Example";
+			productReference = B89484AE61E9943459EA7689DCF6372F /* Pods_FlashPrinter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				th,
+				"zh-Hans",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C664C1C1B660FDFA2BC1EDAB894038F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7067AE046CA96B41E8ED054B86677796 /* FlashPrinter */,
+				B50B93C27E1234C2BAAAAB5054CC8B9F /* FlashPrinter-FlashPrinter */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				C46D97B202FA2F36871924D1601B4CEE /* MYL_Jewelry */,
+				9DD0371C73E0DC78AC440AFFED426977 /* MYL_Jewelry-MYL_Jewelry */,
+				FEF076602E93F99FF0DE42937227C48B /* Pods-FlashPrinter_Example */,
+				1D21C5F7ED4CE0A54AC1004653C3D912 /* Pods-FlashPrinter_Tests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024EB8F31AF5B848392A997C824075A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9017FC5525C3FA3E9FBF1618E33149B4 /* MYL_Jewelry.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D826C2CD8AC371BA01B931A80524EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5380E35A8D8DBBB8F5E14C89E2F3A7BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D7EC5AFFB5B2A215CB3AE601F23F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F4B65808913C12039920316DBCB763 /* MYL_Jewelry.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4624C1D2C7BF89DE291912615E01A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F52C4B13ED89614B1BC9370DE6D13C /* FlashPrinter.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD6D747DD4D15FE6C393B81D34FF457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C145B5CB7F6290BFEF6B5678D86F4413 /* FlashPrinter.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7051E69D2DB1A2BD3A392244B960966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F018F3E3FF6E8F66EC52D6CC5093AB7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0177D809B4286D1396F01F999A59F04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548EE0619866FAFE98AD0A66EFA34183 /* Pods-FlashPrinter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC6DA9D5105FA5F2647D5D3069B269C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B220B260A65019EE93F0D3B3852E0B21 /* MBProgressHUD-dummy.m in Sources */,
+				023E262922CCA5420B0207A7944B61E7 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE7A54DB1E1C165B891272BCDFB4F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54219A85CA7E457C28192CF9771CE461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7483C3097DA46509CF69B3FF32E6AF54 /* Constraint.swift in Sources */,
+				967BFCB71F7B862D520BE9CC0E5100F6 /* ConstraintAttributes.swift in Sources */,
+				432ABC78092C553FC03568083929862C /* ConstraintConfig.swift in Sources */,
+				3622ED939FDA4701FF4316A8300E658C /* ConstraintConstantTarget.swift in Sources */,
+				2A1BEF4B280005E37101B593CDF1CB4B /* ConstraintDescription.swift in Sources */,
+				C772B89904883BCFADCFA1C7C50D7F02 /* ConstraintDSL.swift in Sources */,
+				E545DBE0F1CD77F164AF7202A808D199 /* ConstraintInsets.swift in Sources */,
+				AE09843D081A5DCB2F8839FA248AC174 /* ConstraintInsetTarget.swift in Sources */,
+				35C9F32628B035DAA61F1D198C58758D /* ConstraintItem.swift in Sources */,
+				988454C877DABE1C589A7F6D3F6C8937 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				D3AC4465BD3C9DCFC7E315A800A02F97 /* ConstraintLayoutGuide.swift in Sources */,
+				A3D87754312D21BE68AE7F6421B728E7 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				92989EDF77869A900D243FCC417D9740 /* ConstraintLayoutSupport.swift in Sources */,
+				A0C3DF9D6F894E2CE257B6555C6F5EAE /* ConstraintLayoutSupportDSL.swift in Sources */,
+				31128E9F96EA9D578E93E97AD297B4AC /* ConstraintMaker.swift in Sources */,
+				0275E2E5FDCCC46E9F03FD30174F290D /* ConstraintMakerEditable.swift in Sources */,
+				0162E4FC8C9DA55D76F7A68EDF893B7A /* ConstraintMakerExtendable.swift in Sources */,
+				DAAC6ED487557D164C6FF84D2E5608F0 /* ConstraintMakerFinalizable.swift in Sources */,
+				14F519E5736C965D8DD64D8DE82A5E04 /* ConstraintMakerPriortizable.swift in Sources */,
+				FAB90151D599CAA27A4AD41AD4A399D7 /* ConstraintMakerRelatable.swift in Sources */,
+				B22EAA3E404B3262E77ED22B371BDEF5 /* ConstraintMultiplierTarget.swift in Sources */,
+				8115B27C8230010E67F2429D47BD1770 /* ConstraintOffsetTarget.swift in Sources */,
+				AF7B3703657C3F1E93441A94C3AC35B3 /* ConstraintPriority.swift in Sources */,
+				D7005F7617CA8EA905F3698D8630C865 /* ConstraintPriorityTarget.swift in Sources */,
+				5BBEAB2BCAEB2B06F4EC168DCDEBB339 /* ConstraintRelatableTarget.swift in Sources */,
+				E2BA84754D278C568647CF3929692D42 /* ConstraintRelation.swift in Sources */,
+				EDB9EF82AA70459C404EC6D84D6B81E6 /* ConstraintView+Extensions.swift in Sources */,
+				4C8B53A6F687B22BB34B3ACFA1A1958B /* ConstraintView.swift in Sources */,
+				284D8860846D79F95F027047924BF99D /* ConstraintViewDSL.swift in Sources */,
+				9ED379767E03B5F6F67D851460DAC459 /* Debugging.swift in Sources */,
+				B1AF35516ED605FE164679FFBED02FF2 /* LayoutConstraint.swift in Sources */,
+				C8FA75B33C57BAEB05857AE86551BA33 /* LayoutConstraintItem.swift in Sources */,
+				C11C2A391184CD8F8910E41F5D441D8A /* SnapKit-dummy.m in Sources */,
+				32D16A90D24B0BF50E2942520B053551 /* Typealiases.swift in Sources */,
+				A97F6DFA083476D395EBA7E3BA875FBB /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673CE3F33DAB7485754E66B30C440634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6302652C2F5E56FDA76DB45C3B5CE889 /* FlashPrinter-dummy.m in Sources */,
+				3657674552AA956E6F53B8C092B2F990 /* FP_BaseeTableViewCell.swift in Sources */,
+				2240EBB1B820AA414959C4B20765358C /* FP_Bundle+Extension.swift in Sources */,
+				EE25148721981880CDC7171A82ECEBED /* FP_Define.swift in Sources */,
+				96F79553C5779C9FB6D7F474699D7AD1 /* FP_UIColor+Extension.swift in Sources */,
+				B500CA6C8BDB3ADD94396F4D203D8506 /* FP_UIView+FrameExtension.swift in Sources */,
+				A0CF4D572964B199F0834DCAAA41C85F /* FPAlisonService.swift in Sources */,
+				AB5117B631CE5F960ECDF48D4FFB97DA /* FPBaseModel.swift in Sources */,
+				0372B203F543D90248E55E40CB64C24E /* FPBaseProtocol.swift in Sources */,
+				5201CB6B4D09545530A46D15A7817444 /* FPBaseViewController.swift in Sources */,
+				EC88B0BF05D59E3EB651D7562F73627C /* FPBaseWindow.swift in Sources */,
+				39FC9BD227BF484A3CB56CC98B2C7BD6 /* FPCentralManager.swift in Sources */,
+				E039E3912CF4AAB28EDA63752E1B3877 /* FPConfiguration.swift in Sources */,
+				EB84B988876B592F79E28148030FAEB0 /* FPLocalizable.strings in Sources */,
+				F007CE85D1251E805F6C94F170B606E3 /* FPLocalizable.strings in Sources */,
+				FD98E2FF7FCC8BF632462386268ED250 /* FPLocalizable.strings in Sources */,
+				83652CB91CC2533A9FC16927F816037A /* FPPeripheralCell.swift in Sources */,
+				50C410A87A5EFCCC5EC4E36EAC3225B9 /* FPPeripheralManager.swift in Sources */,
+				6F7CAD02B3875995F88976AA0D3E3038 /* FPPrintManager.swift in Sources */,
+				F1EA891358018638F91FB02306DBA28A /* FPPrintTool.swift in Sources */,
+				E86058984BE861ACEB0309FE7525DF75 /* FPPrintViewController.swift in Sources */,
+				1963EF14B7944581A192CCFC5F8BE2C8 /* FPSelectPrinterView.swift in Sources */,
+				814B2198A8C4482B02F89AAC75A75380 /* FPSelectPrinterViewController.swift in Sources */,
+				4CAB9A638D07C8C7F9411A2531FE2FB9 /* FPSelectPrinterViewModel.swift in Sources */,
+				ED267AEC31A7B62EEF4B332DC9636081 /* FPServiceBase.swift in Sources */,
+				D898DE7CB78FACA3F4E8BBE583602BDF /* FPTipsView.swift in Sources */,
+				4D918827327CF5B16C38503F646FC691 /* FPTipsViewModel.swift in Sources */,
+				2D5890C6F04969C60F90353F8AE941EE /* module.modulemap in Sources */,
+				2B57DC2972446A430789351FDEC98863 /* Printer in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6D62E3822F1E4223DE5E5C8ECEEFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F5EF3E93BAD6DE69659E7E4B4CDDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9BF5CE52E5C012EA64271F2B656C04 /* Draw_Bundle+Extension.swift in Sources */,
+				D21DF3DEA539CBBDDCBB0EB983A461FB /* Draw_UIView+FrameExtension.swift in Sources */,
+				AD3B21CDF2DCFF3AD2AA5673D6A0D48D /* FD_BarcodeTools.swift in Sources */,
+				4B54E5BDF422197DBCAA6EB58DFE561D /* FDLabelBaseData.swift in Sources */,
+				FDF0551EBCEDC584CD0B21B3F6CB15B2 /* FlashDraw.swift in Sources */,
+				3A01D0820C646DE55C696C982F0FFB13 /* FlashDrawManager.swift in Sources */,
+				8DAF2243B8ED0A4360BE0CAB1A592A0D /* MYL_Jewelry-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E434B4480002657176F21A3806F5731C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA0F0B4E3D4590DDE3C9FC72AD0E77A /* Pods-FlashPrinter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		039C7749C379BE83AEC01AD5C8FE7061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 762706E76F41465F82687E3F9EBD181E /* PBXContainerItemProxy */;
+		};
+		0654E0D7E3A98B5EC6ED538DC4E7C333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 6318FD5EBA690F37F5ED9C0698C6AE7C /* PBXContainerItemProxy */;
+		};
+		0D3E0F9B75C46D0E510DE7FADAA0DC87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MYL_Jewelry-MYL_Jewelry";
+			target = 9DD0371C73E0DC78AC440AFFED426977 /* MYL_Jewelry-MYL_Jewelry */;
+			targetProxy = 034E9F5384BA4A665D7D7FA3D264A8A2 /* PBXContainerItemProxy */;
+		};
+		13B0E6E5FC5F928257F4E2A94D670522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FlashPrinter-FlashPrinter";
+			target = B50B93C27E1234C2BAAAAB5054CC8B9F /* FlashPrinter-FlashPrinter */;
+			targetProxy = 158D597E0B345F5BF35A4BCFFC126876 /* PBXContainerItemProxy */;
+		};
+		375A5FE534A87A969BB3415DF00EC66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 8BF8BA1EE32A10E4A8FAA51CD80BC59F /* PBXContainerItemProxy */;
+		};
+		4E5F17F332FB47A8FB8A70BFE5B41707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FlashPrinter_Example";
+			target = FEF076602E93F99FF0DE42937227C48B /* Pods-FlashPrinter_Example */;
+			targetProxy = 2D018BC9C565AE855B75D98CFB40DCBF /* PBXContainerItemProxy */;
+		};
+		4F89DCC66CD1769AFA260B0ACC88CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MYL_Jewelry;
+			target = C46D97B202FA2F36871924D1601B4CEE /* MYL_Jewelry */;
+			targetProxy = C2CCE08E7F09387F44A17B711234ABAE /* PBXContainerItemProxy */;
+		};
+		6EF53D29A822AF68C06BC75048AAE05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = EE1F219C828E6AF4BB4ADA25FEEB5457 /* PBXContainerItemProxy */;
+		};
+		7BBA7D0BCE97A5E592AEE8FF698591AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlashPrinter;
+			target = 7067AE046CA96B41E8ED054B86677796 /* FlashPrinter */;
+			targetProxy = 4A24C0B72A1C814B75CD3EA4AF34B86B /* PBXContainerItemProxy */;
+		};
+		C3672AA90C1D76D11406A0735747B4D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MYL_Jewelry;
+			target = C46D97B202FA2F36871924D1601B4CEE /* MYL_Jewelry */;
+			targetProxy = 2C84EC365FD5A227A1A5788F643D1746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E4F57FFA7F9341721E8FF3D33334828 /* FPLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178019E43D7DFF90634C394904B55D21 /* FPLocalizable.strings */,
+				1035BD3C6BC8587F9CDB8FFD1C85651A /* FPLocalizable.strings */,
+				41B614C377A3870A408073D155BC2969 /* FPLocalizable.strings */,
+			);
+			name = FPLocalizable.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D4042FD08A61BA831642E4077D8A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856E45C4DBEBAC537DD4DDF97EA342F2 /* FlashPrinter.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlashPrinter";
+				IBSC_MODULE = FlashPrinter;
+				INFOPLIST_FILE = "Target Support Files/FlashPrinter/ResourceBundle-FlashPrinter-FlashPrinter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = FlashPrinter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1720DC7C20C3E80332AA93F9EFAC0912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4D084B879995BF1B9946F546009803 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C77494189E44D22D53039F6B52E4627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856E45C4DBEBAC537DD4DDF97EA342F2 /* FlashPrinter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlashPrinter/FlashPrinter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlashPrinter/FlashPrinter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlashPrinter/FlashPrinter.modulemap";
+				PRODUCT_MODULE_NAME = FlashPrinter;
+				PRODUCT_NAME = FlashPrinter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72CA36D3988CC0573E540D1714A9B6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCD5FB1EE6E5C38DDBF63C106282D22 /* FlashPrinter.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlashPrinter";
+				IBSC_MODULE = FlashPrinter;
+				INFOPLIST_FILE = "Target Support Files/FlashPrinter/ResourceBundle-FlashPrinter-FlashPrinter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = FlashPrinter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7A699F2A7530D265A483827D410EE8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E712D28E7D527DECD99A41703B6FE5 /* MYL_Jewelry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MYL_Jewelry/MYL_Jewelry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry.modulemap";
+				PRODUCT_MODULE_NAME = MYL_Jewelry;
+				PRODUCT_NAME = MYL_Jewelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		854A3621789B87CF0EECD1E8BA67A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5119F4AD6919F23E359B81EE2D50D5E9 /* Pods-FlashPrinter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlashPrinter_Example/Pods-FlashPrinter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlashPrinter_Example/Pods-FlashPrinter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A7FA404177FEEC0C9259B8919BA76CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C1D0E0F74BB948516B607669BADD6A /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9182A985E5D7CA6D07EC8EA33CA3D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E17417F02F45CCF31A7A7BEFB03CA31 /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACD24C93B81F188116740A6314E0A48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36C7D282991B34D7601F9F0B818D1CD /* Pods-FlashPrinter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlashPrinter_Tests/Pods-FlashPrinter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlashPrinter_Tests/Pods-FlashPrinter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADF23ED20344DE288C070F5A45608CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91532B9E76FCC33026BC4949ADED1902 /* MYL_Jewelry.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MYL_Jewelry";
+				IBSC_MODULE = MYL_Jewelry;
+				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MYL_Jewelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BF59C9398320C0C1B4C8692CDD2EFCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91532B9E76FCC33026BC4949ADED1902 /* MYL_Jewelry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MYL_Jewelry/MYL_Jewelry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry.modulemap";
+				PRODUCT_MODULE_NAME = MYL_Jewelry;
+				PRODUCT_NAME = MYL_Jewelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF4CED287B5160BF3E4334CFBACCAF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A02AA011DE3E9F3F3E6185F9F64BE0C /* Pods-FlashPrinter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlashPrinter_Example/Pods-FlashPrinter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlashPrinter_Example/Pods-FlashPrinter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4A93FFC69E60E9CB9F290EAD825515C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCD5FB1EE6E5C38DDBF63C106282D22 /* FlashPrinter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlashPrinter/FlashPrinter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlashPrinter/FlashPrinter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlashPrinter/FlashPrinter.modulemap";
+				PRODUCT_MODULE_NAME = FlashPrinter;
+				PRODUCT_NAME = FlashPrinter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEC28D58B24D564D35664A2D79EAD537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE95A3F3C3CCFF0E32E5B1919AA96D2C /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6337386287E140758376DA9BC1E347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E712D28E7D527DECD99A41703B6FE5 /* MYL_Jewelry.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MYL_Jewelry";
+				IBSC_MODULE = MYL_Jewelry;
+				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MYL_Jewelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FE918FD557CD810C3C186554714A43C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5A89A21852D44B22106D49533732F6 /* Pods-FlashPrinter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlashPrinter_Tests/Pods-FlashPrinter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlashPrinter_Tests/Pods-FlashPrinter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152ADF275B5451CA4BBFF4284670167B /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC28D58B24D564D35664A2D79EAD537 /* Debug */,
+				8A7FA404177FEEC0C9259B8919BA76CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3791C47863826E95F9C4A179B0B5D55D /* Build configuration list for PBXNativeTarget "FlashPrinter-FlashPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D4042FD08A61BA831642E4077D8A3B /* Debug */,
+				72CA36D3988CC0573E540D1714A9B6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4420B70C2838B3CC17036609B237A685 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1720DC7C20C3E80332AA93F9EFAC0912 /* Debug */,
+				9182A985E5D7CA6D07EC8EA33CA3D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0BF30120A355D71D30E17D285012FE /* Build configuration list for PBXNativeTarget "FlashPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C77494189E44D22D53039F6B52E4627 /* Debug */,
+				E4A93FFC69E60E9CB9F290EAD825515C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC1909CD5BDEDC133B61F45768D6C95 /* Build configuration list for PBXNativeTarget "Pods-FlashPrinter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD24C93B81F188116740A6314E0A48F /* Debug */,
+				FE918FD557CD810C3C186554714A43C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37D5181994F734A107D0AB4AAFFCAB3 /* Build configuration list for PBXNativeTarget "MYL_Jewelry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59C9398320C0C1B4C8692CDD2EFCAC /* Debug */,
+				7A699F2A7530D265A483827D410EE8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A5941DD3DFC6BE08B001ABAD5ABD8B /* Build configuration list for PBXNativeTarget "MYL_Jewelry-MYL_Jewelry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF23ED20344DE288C070F5A45608CCC /* Debug */,
+				F6337386287E140758376DA9BC1E347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1C44B26B7C2BB79BF61AE0D233C2C5 /* Build configuration list for PBXNativeTarget "Pods-FlashPrinter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854A3621789B87CF0EECD1E8BA67A969 /* Debug */,
+				DF4CED287B5160BF3E4334CFBACCAF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

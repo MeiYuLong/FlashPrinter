@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="FlashPrinter_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjt-HJ-85z">
+                                <rect key="frame" x="150.5" y="146" width="74" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="B4Y-lo-pgh"/>
+                                    <constraint firstAttribute="width" constant="74" id="DWT-gG-uSa"/>
+                                </constraints>
+                                <state key="normal" title="PrintImage"/>
+                                <connections>
+                                    <action selector="printImage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1Vr-ri-XjI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Vt-5e-MPg">
+                                <rect key="frame" x="150.5" y="232" width="74" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="n9u-U6-GZh"/>
+                                    <constraint firstAttribute="height" constant="30" id="uek-z9-DBf"/>
+                                </constraints>
+                                <state key="normal" title="PrintTicket"/>
+                                <connections>
+                                    <action selector="printTicket:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8KH-nX-iGj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="4Vt-5e-MPg" firstAttribute="top" secondItem="qjt-HJ-85z" secondAttribute="bottom" constant="56" id="G29-dO-icj"/>
+                            <constraint firstItem="qjt-HJ-85z" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="QQU-xi-VuH"/>
+                            <constraint firstItem="qjt-HJ-85z" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="146" id="Tje-Ll-SYC"/>
+                            <constraint firstItem="4Vt-5e-MPg" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Zk8-kU-IKu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
