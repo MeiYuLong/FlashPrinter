@@ -1,18 +1,18 @@
 {
   "name": "FlashPrinter",
   "version": "0.0.1",
-  "summary": "A short description of FlashPrinter.",
+  "summary": "蓝牙打印公共模块",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/longjiao914@126.com/FlashPrinter",
+  "homepage": "https://github.com/MeiYuLong/FlashPrinter.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "longjiao914@126.com": "longjiao914@126.com"
+    "MeiYuLong": "longjiao914@126.com"
   },
   "source": {
-    "git": "https://github.com/longjiao914@126.com/FlashPrinter.git",
+    "git": "https://github.com/MeiYuLong/FlashPrinter.git",
     "tag": "0.0.1"
   },
   "platforms": {
@@ -28,7 +28,7 @@
   "vendored_frameworks": "FlashPrinter/Classes/Alison/Printer.framework",
   "dependencies": {
     "SnapKit": [
-      "~> 4.0.0"
+      "~> 5.0.0"
     ],
     "MYL_Jewelry": [
       "~> 0.0.3"
