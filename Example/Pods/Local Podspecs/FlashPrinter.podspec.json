@@ -1,6 +1,6 @@
 {
   "name": "FlashPrinter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "蓝牙打印公共模块",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MeiYuLong/FlashPrinter.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MeiYuLong/FlashPrinter.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "10.0"
@@ -28,7 +28,7 @@
   "vendored_frameworks": "FlashPrinter/Classes/Alison/Printer.framework",
   "dependencies": {
     "SnapKit": [
-      ">= 5.0.0"
+      "~> 5.0.0"
     ],
     "MYL_Jewelry": [
       "~> 0.0.3"
