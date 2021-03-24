@@ -57,7 +57,6 @@
 		70BBCDB9D53BB54ECDFDC954AC59D2F8 /* FPPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53151A8D16E097B820B580135EA94C /* FPPeripheralManager.swift */; };
 		70D1D2B024A191CC1D3446AAB66A33E4 /* FPTipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70D991A122A8C623146BF1D86CDDCA /* FPTipsViewModel.swift */; };
 		74FBB69CF031AEEFEB2A17E4F0B72D90 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3D9088B4B17837FBB5702B124CA6E /* ConstraintLayoutGuide.swift */; };
-		77A88A36CD8D0F57AE054B93189BDE1B /* FPLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = F61711AEA26B4B4A6789489C22781803 /* FPLocalizable.strings */; };
 		7C6D282B1CCA30164C38A506FC4AE42F /* MYL_Jewelry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E0DF8DE9600C683036A02C957A216A /* MYL_Jewelry.framework */; };
 		7CE0C73AA620F393C788480FA7CD1672 /* FPPrintTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0639BFC458210B0F1FABD58423D04 /* FPPrintTool.swift */; };
 		83DDB1CBE3B267A5712D466D1ED89073 /* FP_String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A749495EBBE85126D970980FE3EDE53 /* FP_String+Extension.swift */; };
@@ -67,7 +66,6 @@
 		8CEFB4E1B0BDC84AF90BFF77C99AA52E /* FPBaseWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875983919D4A7A776E8D49D8299BF1A5 /* FPBaseWindow.swift */; };
 		8D9CFD5726A75EB9EAAC459E03F548AD /* Draw_UIView+FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A1E46945FA1804C9A2A8DB6B9628E /* Draw_UIView+FrameExtension.swift */; };
 		955509A32DC3F3CDD0EAE02E01AA8255 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11DA53436C650116120F4D7917076F /* ConstraintPriority.swift */; };
-		973490D7FAD3186885E5B6EA1E2708CE /* FPLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 59DE155324AFA3665FD1312036F75C0E /* FPLocalizable.strings */; };
 		9847F83AD99952615DACADA347A2B276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACED8C7A78877600DFE760D2FDB208 /* Foundation.framework */; };
 		9CB0A5BCDB49FFDD7A76E7619CD529E9 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F530802940625D592054921C502D8FB /* ConstraintAttributes.swift */; };
 		A420FE9E695E7DB200A6E824DFBD74DB /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE6318106DC98FBF54C21180687D352 /* MBProgressHUD.framework */; };
@@ -87,7 +85,6 @@
 		C165D14F28F661625C04562B7F0D2919 /* FPBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6883E6C4E0086678FFCE62CDA406E /* FPBaseModel.swift */; };
 		C3E1B851069575E5E476ED3FDC98767D /* FPBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D4A9FDE99057BDA1A775CC288799 /* FPBaseProtocol.swift */; };
 		C5BE6372C7237B6BBC9A18CBE8B7AC5E /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E5603E1713CE106F73996FF6A915E1 /* ConstraintLayoutGuide+Extensions.swift */; };
-		C72BFF40D3B282F6D7859D0F32915AD4 /* FPLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 0067281C339CB97598EEFE7FB7631145 /* FPLocalizable.strings */; };
 		C778E5C862AA680AB4FCC13250E98BA6 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DE1526461A764C5D53C507F773C7C /* ConstraintMakerFinalizable.swift */; };
 		CBDAD466730F799D8EB61D128AEAAB4D /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BA60375269FF337ED3AF1632B229C4 /* ConstraintMakerRelatable.swift */; };
 		CEA0F0B4E3D4590DDE3C9FC72AD0E77A /* Pods-FlashPrinter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F49F947384D2C70C118DF5DF15A99C /* Pods-FlashPrinter_Tests-dummy.m */; };
@@ -188,7 +185,6 @@
 
 /* Begin PBXFileReference section */
 		0045000A815AE77A82DC6F42B3D4E7CB /* Pods-FlashPrinter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashPrinter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0067281C339CB97598EEFE7FB7631145 /* FPLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FPLocalizable.strings; path = en.lproj/FPLocalizable.strings; sourceTree = "<group>"; };
 		053F328A70A9119E9D4F05642A66B456 /* FP_UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FP_UIColor+Extension.swift"; sourceTree = "<group>"; };
 		07D9C31957AFBB688814C3A086E787D1 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		0C264297586B7AAF3661564C43E91106 /* FPBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPBaseViewController.swift; sourceTree = "<group>"; };
@@ -234,7 +230,6 @@
 		563839CBACA95FBCDFD5B2716204D16B /* FlashPrinter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlashPrinter-prefix.pch"; sourceTree = "<group>"; };
 		583AAD0C63F04DE70F026F6B81720200 /* FPCentralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPCentralManager.swift; sourceTree = "<group>"; };
 		595E3E3F25D11DE0F36C35A5482FD9BD /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		59DE155324AFA3665FD1312036F75C0E /* FPLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FPLocalizable.strings; path = th.lproj/FPLocalizable.strings; sourceTree = "<group>"; };
 		5ABEBA938F5601080FBD8D840348E5EA /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		5BE5E9C8CD598FACC82B58323B9FB579 /* MYL_Jewelry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYL_Jewelry-dummy.m"; sourceTree = "<group>"; };
 		5BE6318106DC98FBF54C21180687D352 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -330,7 +325,6 @@
 		EFF95C019027CDD7EB480B7D9BE032C5 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		F09882C2C47E97D23269B7876CA0A0D5 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		F486FFC633E81AB8E380AFD682DAA644 /* Printer */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = Printer; sourceTree = "<group>"; };
-		F61711AEA26B4B4A6789489C22781803 /* FPLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FPLocalizable.strings; path = "zh-Hans.lproj/FPLocalizable.strings"; sourceTree = "<group>"; };
 		F648673CF6CF0AA502510B43EC9C47F7 /* FP_BaseeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FP_BaseeTableViewCell.swift; sourceTree = "<group>"; };
 		F97B609690C9EDF7822BFE77DA421780 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		FBCEB333066DAFFF7E5C4C1389AC1C8E /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
@@ -786,7 +780,6 @@
 				28332437092D15A986CDAFDED59693DC /* FPConfiguration.swift */,
 				593B31CF2E6AC6A6B19C2724E01F4214 /* Base */,
 				13B01415EA5C75D6F200740681293E52 /* Extension */,
-				DDEB73DF822DCA82A04C6FE0FCE840DC /* Localizable */,
 				679D47EE75380A3E0E98C85C5D7DEA19 /* Manager */,
 				46833B3FDAC356AAB3003491C80709CD /* Service */,
 				3D760EA18695AE387AC1FE7484356820 /* Tools */,
@@ -831,14 +824,6 @@
 				1B5B7FF924B91C900A3B52C916D46E06 /* FPSelectPrinterViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		DDEB73DF822DCA82A04C6FE0FCE840DC /* Localizable */ = {
-			isa = PBXGroup;
-			children = (
-				08305490D2E0AC5D42C6DFCFA470CC66 /* FPLocalizable.strings */,
-			);
-			path = Localizable;
 			sourceTree = "<group>";
 		};
 		E06282141D19036EDA75B8734E3342E9 /* Modules */ = {
@@ -1269,9 +1254,6 @@
 				8CEFB4E1B0BDC84AF90BFF77C99AA52E /* FPBaseWindow.swift in Sources */,
 				A812E6C0D2680A89561A7B59D0C528FE /* FPCentralManager.swift in Sources */,
 				BA04399FEDDA9701247896C7215C7903 /* FPConfiguration.swift in Sources */,
-				C72BFF40D3B282F6D7859D0F32915AD4 /* FPLocalizable.strings in Sources */,
-				77A88A36CD8D0F57AE054B93189BDE1B /* FPLocalizable.strings in Sources */,
-				973490D7FAD3186885E5B6EA1E2708CE /* FPLocalizable.strings in Sources */,
 				48937A61BD425FBCC976371F650E5CFF /* FPPeripheralCell.swift in Sources */,
 				70BBCDB9D53BB54ECDFDC954AC59D2F8 /* FPPeripheralManager.swift in Sources */,
 				2441E2534BC3FA6386E38B687FFB4AB1 /* FPPrintManager.swift in Sources */,
@@ -1413,17 +1395,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08305490D2E0AC5D42C6DFCFA470CC66 /* FPLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0067281C339CB97598EEFE7FB7631145 /* FPLocalizable.strings */,
-				59DE155324AFA3665FD1312036F75C0E /* FPLocalizable.strings */,
-				F61711AEA26B4B4A6789489C22781803 /* FPLocalizable.strings */,
-			);
-			name = FPLocalizable.strings;
-			path = .;
-			sourceTree = "<group>";
-		};
 		667AE8049CE914007FAFC47E0200A341 /* FPLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
