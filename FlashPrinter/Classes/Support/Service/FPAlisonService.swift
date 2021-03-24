@@ -89,6 +89,7 @@ extension FPAlisonService {
             sendData.append(printer.printerWake())
             sendData.append(printer.printLinedots(16))
             sendData.append(printer.drawGraphic(image, mode: 0))
+            sendData.append(printer.printLinedots(80))
             printer.write(withBytes: sendData)
             printer.write(withBytes: printer.stopPrintJob())
         }
