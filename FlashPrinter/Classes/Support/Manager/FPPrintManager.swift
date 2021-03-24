@@ -47,6 +47,7 @@ public class FPPrintManager{
             FPCentralManager.shared.start()
             self.window = FPBaseWindow(vc: FPSelectPrinterViewController())
         }
+        self.canceledPrint = false
     }
     
     /// 隐藏Window
@@ -81,7 +82,8 @@ public class FPPrintManager{
                 }
                 service.fpPrint(image)
                 break
-            case .PRINTER_OPENED,
+            case .PRINTER_PRINTING,
+                 .PRINTER_OPENED,
                  .PRINTER_NO_PAPER,
                  .PRINTER_LOW_BATTERY,
                  .PRINTER_OVERHEAT,
@@ -105,7 +107,8 @@ public class FPPrintManager{
                     state = .PRINTER_PRINT_STOP
                 }
                 break
-            
+            case .PRINTRT_DISCONNECT:
+                self.hidden()
             default:
                 break
             }
@@ -126,7 +129,6 @@ extension FPPrintManager {
         self.printIndex = index
         self.printTotal = total
         self.callback = handle
-        self.canceledPrint = false
         
         if let thickness = thickness {
             FPCentralManager.shared.service?.fpSetThickness(thickness)
@@ -146,8 +148,8 @@ extension FPPrintManager {
 
 extension FPPrintManager {
     public func showAlert(_ message: String) {
-        let alert = UIAlertController.init(title: "提示", message: message, preferredStyle: .alert)
-        let action = UIAlertAction.init(title: "确定", style: .default, handler: nil)
+        let alert = UIAlertController.init(title: "fp.Prompt".FP_Locale, message: message, preferredStyle: .alert)
+        let action = UIAlertAction.init(title: "fp.ok".FP_Locale, style: .default, handler: nil)
         alert.addAction(action)
         window?.rootViewController?.present(alert, animated: true, completion: nil)
     }

@@ -101,26 +101,31 @@ public enum FPPrinterStatus: String {
     /// 开启蓝牙服务失败
     case PRINTER_GATTSERVICE_FAILD = "GATTSERVICE_FAILD"
     
-    var error: String {
+    /// 打印设备断开链接
+    case PRINTRT_DISCONNECT = "PRINTRT_DISCONNECT"
+    
+    public var error: String {
         switch self {
         case .PRINTER_PRINTING:
-            return NSLocalizedString("translate.8g", comment: "正在打印...")
+            return "fp.printing".FP_Locale
         case .PRINTER_OPENED:
-            return NSLocalizedString("translate.8m", comment: "设备开盖")
+            return "fp.Device's cover is open".FP_Locale
         case .PRINTER_NO_PAPER:
-            return NSLocalizedString("translate.8k", comment: "缺纸")
+            return "fp.Paper shortage".FP_Locale
         case .PRINTER_LOW_BATTERY:
-            return NSLocalizedString("translate.8j", comment: "低电量")
+            return "fp.Low battery".FP_Locale
         case .PRINTER_OVERHEAT:
-            return NSLocalizedString("translate.8l", comment: "过热")
+            return "fp.Device is overheated".FP_Locale
         case .PRINTER_PRINT_UNKNOW:
-            return NSLocalizedString("translate.8i", comment: "未知错误")
+            return "fp.unknown error".FP_Locale
         case .PRINTER_PRINT_NIL:
-            return "接收数据处理出错"
+            return "fp.Recevied data error".FP_Locale
         case .PRINTER_PRINT_VERSION_ERROR:
-            return NSLocalizedString("translate.30h", comment: "你的厂商不支持Flash，请联系你的打印机厂商解决")
+            return "fp.Your printer does not support".FP_Locale
         case .PRINTER_GATTSERVICE_FAILD:
-            return "开启蓝牙服务失败，请联系客服"
+            return "fp.Failed to enable Bluetooth service".FP_Locale
+        case .PRINTRT_DISCONNECT:
+            return "fp.The printing device is disconnected".FP_Locale
         default:
             return ""
         }

@@ -122,6 +122,7 @@ extension FPAlisonService {
             connectedPeripheral = nil
         }
         printer?.stopService()
+        self.printerStatusMonitor?(.PRINTRT_DISCONNECT)
     }
     
     /// 每次打印先检查Alison打印机状态 在代理里去打印
@@ -253,8 +254,10 @@ extension FPAlisonService: PrinterInterfaceDelegate {
             let hex2string = FPPrintTool.hex2String(data: bleData)
             if hex2string.isEmpty {
                 // 此处对应  alisonPrinter.stopPrintJob() 停止打印工作时 打印结束
-                self.printerStatusMonitor?(.PRINTER_PRINT_END)
-                debugPrint("bleDataReceived---停止打印工作！可以断开")
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.8) { [weak self] in
+                    debugPrint("bleDataReceived---停止打印工作！可以断开")
+                    self?.printerStatusMonitor?(.PRINTER_PRINT_END)
+                }
             }else {
                 // 数据已发送给打印机，还没有打印结束
                 let status = FPPrinterStatus.init(rawValue: hex2string)

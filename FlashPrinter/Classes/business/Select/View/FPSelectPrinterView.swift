@@ -126,7 +126,7 @@ class FPSelectPrinterView: UIView {
         label.textColor = .black
         label.font = UIFont.systemFont(ofSize: 16)
         label.textAlignment = .center
-        label.text = "连接打印机"//NSLocalizedString("translate.820", comment: "连接打印机")
+        label.text = "fp.Connect the printer".FP_Locale
         return label
     }()
     
@@ -157,7 +157,7 @@ class FPSelectPrinterView: UIView {
         label.font = UIFont.systemFont(ofSize:12)
         label.textAlignment = .center
         label.numberOfLines = 0
-        label.text = "找不到打印机？请重启打印机后再试。 如果仍然无法找到，请重启app" //NSLocalizedString("translate.822", comment: "找不到打印机？请重启打印机后再试。 如果仍然无法找到，请重启app")
+        label.text = "fp.Printer not found?".FP_Locale
         return label
     }()
     
@@ -182,7 +182,7 @@ class FPSelectPrinterView: UIView {
         let label = UILabel()
         label.textColor = FPBlueTextColor
         label.font = UIFont.systemFont(ofSize: 14)
-        label.text = "正在搜索打印机..." //NSLocalizedString("translate.821", comment: "正在搜索打印机...")
+        label.text = "fp.Searching for printers".FP_Locale
         label.textAlignment = .center
         return label
     }()

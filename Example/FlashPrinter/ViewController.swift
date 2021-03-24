@@ -219,13 +219,11 @@ class ViewController: UIViewController {
             guard let self = self else { return }
             debugPrint("FPPrintManager.shared.print Status Monitor: ---", status)
             switch status {
-//            case .PRINTER_READY:
-//                self.checkData()
             case .PRINTER_PRINT_OK:
                 model.status = true
                 self.printArray[index] = model
             case .PRINTER_PRINT_END:
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     if index + 1 == total {
                         let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
                         hud.detailsLabel.text = "Print 结束!"
@@ -238,6 +236,11 @@ class ViewController: UIViewController {
             case .PRINTER_PRINT_STOP:
                 let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
                 hud.detailsLabel.text = "Print 结束!"
+                hud.mode = .text
+                hud.hide(animated: true, afterDelay: 1.5)
+            case .PRINTRT_DISCONNECT:
+                let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
+                hud.detailsLabel.text = status.error
                 hud.mode = .text
                 hud.hide(animated: true, afterDelay: 1.5)
             default:

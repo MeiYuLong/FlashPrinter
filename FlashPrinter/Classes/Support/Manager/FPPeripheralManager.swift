@@ -94,19 +94,19 @@ extension CBManagerState: CBManagerStateTract {
     public var description: String {
         switch self {
         case .poweredOff:
-            return "蓝牙未开启!"
+            return "fp.Bluetooth is off".FP_Locale
         case .poweredOn:
-            return "蓝牙已开启!"
+            return "fp.Bluetooth is on".FP_Locale
         case .resetting:
-            return "您的蓝牙正在重置，请稍后再试!"
+            return "fp.Bluetooth is resetting".FP_Locale
         case .unauthorized:
-            return "您尚未开启蓝牙权限，请去设置中开启!"
+            return "fp.Bluetooth is not authorized".FP_Locale
         case .unknown:
-            return "未知的错误，请检查蓝牙功能!"
+            return "fp.Bluetooth unknown error".FP_Locale
         case .unsupported:
-            return "您的设备不支持蓝牙功能!"
+            return "fp.Bluetooth version is not applicable".FP_Locale 
         default:
-            return "未知的错误，请检查蓝牙功能!"
+            return "fp.Bluetooth unknown error".FP_Locale.FP_Locale
         }
     }
 }

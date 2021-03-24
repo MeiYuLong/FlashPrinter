@@ -58,8 +58,8 @@ class FPTipsView: UIView {
     }
     
     private func loadData() {
-        self.tipLabel.text = "正在打印第\(vm.index ?? 0)份"
-        self.totalLabel.text = "共\(vm.total ?? 0)份"
+        self.tipLabel.text = "fp.Printing location".FP_Locale + "\(vm.index ?? 0)" + "fp.copy".FP_Locale
+        self.totalLabel.text = "fp.Total".FP_Locale + "\(vm.total ?? 0)" + "fp.copy".FP_Locale
     }
     
     @objc func cancelPrint() {
@@ -93,7 +93,7 @@ class FPTipsView: UIView {
     
     lazy var cancelButton: UIButton = {
         let button = UIButton.init(type: .custom)
-        button.setTitle("取消打印", for: .normal)
+        button.setTitle("fp.cancel print".FP_Locale, for: .normal)
         button.setTitleColor(.red, for: .normal)
         button.backgroundColor = FPMainButtonColor
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16)
@@ -105,8 +105,8 @@ class FPTipsView: UIView {
         let vm = FPTipsViewModel()
         vm.updateCount = { [weak self](index, total) in
             guard let self = self else { return }
-            self.tipLabel.text = "正在打印第\(index)份"
-            self.totalLabel.text = "共\(total)份"
+            self.tipLabel.text = "fp.Printing location".FP_Locale + "\(index)" + "fp.copy".FP_Locale
+            self.totalLabel.text = "fp.Total".FP_Locale + "\(total)" + "fp.copy".FP_Locale
         }
         return vm
     }()

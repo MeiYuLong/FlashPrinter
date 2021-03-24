@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlashPrinter'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '蓝牙打印公共模块'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'FlashPrinter/Classes/**/*'
   
   s.resource_bundles = {
-    'FlashPrinter' => ['FlashPrinter/Assets/*.xcassets']
+    'FlashPrinter' => ['FlashPrinter/Assets/**/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
