@@ -16,6 +16,9 @@ class FPAlisonService: FPServiceBase {
     private var searchType: SEARCHTYPE = CHECKPRINTER
     private var typePrinter: TYPEPRINTER = OTHER
     
+    /// 打印浓度 0、1、2
+    private var thickness: Int =  2
+    
     override func start() {
         printer = Printer.sharedInstance()
         printer?.delegate = self
@@ -46,9 +49,17 @@ class FPAlisonService: FPServiceBase {
         self.disconnectDevice()
     }
     
-    ///
+    /// 将要打印检查打印机状体
     override func fpWillPrint(){
         self.checkPrinterStatus()
+    }
+    
+    override func fpSetThickness(_ thickness: Int) {
+        if thickness >= 0 || thickness <= 2 {
+            self.thickness = thickness
+        }else {
+            debugPrint("Out of range for SetThickness......")
+        }
     }
     
     /// 打印
@@ -70,10 +81,11 @@ extension FPAlisonService {
     public func print(image: UIImage) {
         searchType = PRINTSTATUS
         DispatchQueue.global().async { [weak self] in
-            guard let printer = self?.printer else { return }
+            guard let self = self else { return }
+            guard let printer = self.printer else { return }
             var sendData = Data.init()
             sendData.append(printer.enable())
-            sendData.append(printer.setThickness(2))
+            sendData.append(printer.setThickness(Int32(self.thickness)))
             sendData.append(printer.printerWake())
             sendData.append(printer.printLinedots(16))
             sendData.append(printer.drawGraphic(image, mode: 0))

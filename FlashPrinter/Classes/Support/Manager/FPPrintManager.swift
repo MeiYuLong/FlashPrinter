@@ -121,12 +121,16 @@ extension FPPrintManager {
     /// - Parameters:
     ///   - image: 打印的图片
     ///   - handle: 回调
-    public func print(image: UIImage, index: Int, total: Int, _ handle: @escaping FPPrintCallback) {
+    public func print(image: UIImage, thickness: Int? = nil, index: Int, total: Int, _ handle: @escaping FPPrintCallback) {
         self.printImage = image
         self.printIndex = index
         self.printTotal = total
         self.callback = handle
         self.canceledPrint = false
+        
+        if let thickness = thickness {
+            FPCentralManager.shared.service?.fpSetThickness(thickness)
+        }
         
         if FPCentralManager.shared.service?.isConnected ?? false {
             FPCentralManager.shared.service?.fpWillPrint()

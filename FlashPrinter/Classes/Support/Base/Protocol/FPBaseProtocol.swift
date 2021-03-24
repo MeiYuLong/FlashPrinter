@@ -25,8 +25,16 @@ public protocol FPPrintProtocol {
     /// 断开设备
     func fpDisconnect()
     
-    ///
+    /// 将要打印
     func fpWillPrint()
+    
+    /**
+     * 设置打印机浓度(0-2)
+     * 0:低浓度
+     * 1:中浓度
+     * 2:高浓度
+     */
+    func fpSetThickness(_ thickness: Int)
     
     /// 打印
     func fpPrint(_ data: Any)

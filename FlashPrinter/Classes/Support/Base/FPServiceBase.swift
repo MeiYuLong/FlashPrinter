@@ -22,6 +22,8 @@ class FPServiceBase: NSObject, FPPrintProtocol, FPServiceProtocol {
     
     func fpWillPrint() {}
     
+    func fpSetThickness(_ thickness: Int) {}
+    
     func fpPrint(_ data: Any) {}
     
     func fpStopPrintJob() {}
