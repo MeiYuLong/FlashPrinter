@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlashPrinter'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '蓝牙打印公共模块'
 
 # This description is used to generate tags and improve search results.
@@ -46,6 +46,6 @@ TODO: Add long description of the pod here.
 #  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 #  s.xcconfig = {'USER_HEADER_SEARCH_PATHS' => 'FlashPrinter/Classes/Alison/*.{h}'}
   s.dependency 'SnapKit', '~> 5.0.0'
-  s.dependency 'MYL_Jewelry', '~> 0.0.3'
   s.dependency 'MBProgressHUD', '~> 1.1.0'
+  s.dependency 'MYL_Jewelry'
 end
