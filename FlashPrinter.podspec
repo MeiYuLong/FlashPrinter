@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlashPrinter'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = '蓝牙打印公共模块'
 
 # This description is used to generate tags and improve search results.

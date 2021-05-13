@@ -10,6 +10,9 @@ import Foundation
 /// 绘制小标签基础数据
 public class FDLabelBaseData {
     
+    /// 寄件信息标题，默认: From
+    public var src_title: String = "From"
+    
     /// 寄件人地址缩写
     public var src_abbreviation: String?
     
@@ -33,6 +36,9 @@ public class FDLabelBaseData {
     
     /// 寄件邮编
     public var src_postal_code: String?
+    
+    /// 收件信息标题，默认: To
+    public var dst_title: String = "To"
     
     /// 收件人地址缩写
     public var dst_abbreviation: String?
