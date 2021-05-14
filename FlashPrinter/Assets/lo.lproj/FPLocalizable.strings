@@ -5,13 +5,13 @@
   Created by yulong mei on 2021/3/24.
   
 */
-"fp.print" = "打印";
-"fp.cancel print" = "取消打印";
+"fp.print" = "ປິ້ນ";
+"fp.cancel print" = "ຍົກເລີກການພິມ";
 "fp.printing" = "正在打印...";
 "fp.print not connected" = "未连接蓝牙打印机";
 "fp.connect now" = "立即连接";
-"fp.content device" = "连接设备";
-"fp.print done" = "打印完成";
+"fp.content device" = "ເຊື່ອມຕໍ່ອຸປະກອນ";
+"fp.print done" = "ການພິມສຳເລັດແລ້ວ";
 "fp.unknown error" = "未知错误";
 "fp.Low battery" = "低电量";
 "fp.Paper shortage" = "缺纸";
@@ -22,10 +22,10 @@
 "fp.Bluetooth version is not applicable" = "蓝牙不支持";
 "fp.Bluetooth is not authorized" = "蓝牙未授权";
 "fp.Your printer does not support" = "你的厂商不支持Flash，请联系你的打印机厂商解决。Flash推荐大家使用官方FlashToy和耗材，可以在Flash App首页进行购买。";
-"fp.Bluetooth is disconnected abnormally" = "蓝牙异常断开";
+"fp.Bluetooth is disconnected abnormally" = "Bluetooth ຕັດເຊື່ອມຕໍ່ແບບຜິດປົກກະຕິ";
 "fp.Printer not found?" = "找不到打印机？请重启打印机后再试，如仍然无法找到，请重启APP";
-"fp.Connect the printer" = "选择打印机";
-"fp.Searching for printers" = "正在搜索设备中...";
+"fp.Connect the printer" = "ເລືອກເຄື່ອງປິ້ນ";
+"fp.Searching for printers" = "ກຳລັງຄົ້ນຫາອຸປະກອນຢູ່...";
 "fp.Connection successful" = "连接成功 正在打印";
 "fp.Connection failed" = "连接失败 请重试";
 "fp.Total" = "共";
@@ -36,5 +36,5 @@
 "fp.The printing device is disconnected" = "打印设备已断开连接";
 "fp.Bluetooth is resetting" = "蓝牙正在重置";
 "fp.Bluetooth unknown error" = "未知的错误，请检查蓝牙功能!";
-"fp.Prompt" = "提示";
-"fp.ok" = "确定";
+"fp.Prompt" = "ແຈ້ງເຕືອນ";
+"fp.ok" = "ຢືນຢັນ";

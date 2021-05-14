@@ -220,6 +220,10 @@
 		41AFF2303EA06292A6B33321393E1F8F /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		443CED8627181716883C86CA2A33B4CE /* Draw_UIView+FrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Draw_UIView+FrameExtension.swift"; path = "MYL_Jewelry/Classes/Support/Draw_UIView+FrameExtension.swift"; sourceTree = "<group>"; };
 		44F0311DC8F3E6A4ED38C25944ABE25F /* FlashPrinter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlashPrinter-prefix.pch"; sourceTree = "<group>"; };
+		461C1A18264E6E9C003F4A77 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/FPLocalizable.strings"; sourceTree = "<group>"; };
+		461C1A19264E6EEA003F4A77 /* lo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lo; path = lo.lproj/FPLocalizable.strings; sourceTree = "<group>"; };
+		461C1A1A264E6F20003F4A77 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/FPLocalizable.strings; sourceTree = "<group>"; };
+		461C1A1B264E6F3C003F4A77 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/FPLocalizable.strings; sourceTree = "<group>"; };
 		488382D30611D43D5625FAF4B59FAAA6 /* MYL_Jewelry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-umbrella.h"; sourceTree = "<group>"; };
 		4D5BAE9A8F8577A387C9D66BC87A0BBE /* FP_Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FP_Bundle+Extension.swift"; sourceTree = "<group>"; };
 		4E9E345F76FFD0B62571829ED9F10724 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
@@ -1118,6 +1122,10 @@
 				Base,
 				th,
 				"zh-Hans",
+				"zh-Hant",
+				lo,
+				ms,
+				vi,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 8C664C1C1B660FDFA2BC1EDAB894038F /* Products */;
@@ -1405,6 +1413,10 @@
 				65D65FB2B5F57383B300D48B0E706847 /* FPLocalizable.strings */,
 				301C3746D51405F957880759D83C0811 /* FPLocalizable.strings */,
 				944DC379C448B6A454CCA31DC4EDD52D /* FPLocalizable.strings */,
+				461C1A18264E6E9C003F4A77 /* zh-Hant */,
+				461C1A19264E6EEA003F4A77 /* lo */,
+				461C1A1A264E6F20003F4A77 /* ms */,
+				461C1A1B264E6F3C003F4A77 /* vi */,
 			);
 			name = FPLocalizable.strings;
 			path = FlashPrinter/Assets;
