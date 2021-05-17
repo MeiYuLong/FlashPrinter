@@ -9,6 +9,8 @@ import UIKit
 
 class FPTipsView: UIView {
     
+    let vm = FPTipsViewModel()
+    
     override func draw(_ rect: CGRect) {
         super.draw(rect)
         
@@ -58,8 +60,13 @@ class FPTipsView: UIView {
     }
     
     private func loadData() {
-        self.tipLabel.text = "fp.Printing location".FP_Locale + "\(vm.index ?? 0)" + "fp.copy".FP_Locale
-        self.totalLabel.text = "fp.Total".FP_Locale + "\(vm.total ?? 0)" + "fp.copy".FP_Locale
+        self.tipLabel.text = "fp.Printing location".FP_Locale + "\(FPPrintManager.shared.printIndex ?? 0)" + "fp.copy".FP_Locale
+        self.totalLabel.text = "fp.Total".FP_Locale + "\(FPPrintManager.shared.printTotal ?? 0)" + "fp.copy".FP_Locale
+        vm.updateCount = { [weak self](index, total) in
+            guard let self = self else { return }
+            self.tipLabel.text = "fp.Printing location".FP_Locale + "\(index)" + "fp.copy".FP_Locale
+            self.totalLabel.text = "fp.Total".FP_Locale + "\(total)" + "fp.copy".FP_Locale
+        }
     }
     
     @objc func cancelPrint() {
@@ -99,16 +106,6 @@ class FPTipsView: UIView {
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         button.addTarget(self, action: #selector(cancelPrint), for: .touchUpInside)
         return button
-    }()
-    
-    lazy var vm: FPTipsViewModel = {
-        let vm = FPTipsViewModel()
-        vm.updateCount = { [weak self](index, total) in
-            guard let self = self else { return }
-            self.tipLabel.text = "fp.Printing location".FP_Locale + "\(index)" + "fp.copy".FP_Locale
-            self.totalLabel.text = "fp.Total".FP_Locale + "\(total)" + "fp.copy".FP_Locale
-        }
-        return vm
     }()
     
     required init?(coder: NSCoder) {
