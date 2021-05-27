@@ -29,9 +29,8 @@
 "fp.Searching for printers" = "กำลังค้นหาเครื่องปริ้นท์...";
 "fp.Connection successful" = "เชื่อมต่อสำเร็จ กำลังปริ้นท์";
 "fp.Connection failed" = "เชื่อมต่อล้มเหลว กรุณาลองอีกครั้ง";
-"fp.Total" = "共";
-"fp.copy" = "份";
-"fp.Printing location" = "正在打印第";
+"fp.copy" = "ทั้งหมด * ฉบับ";
+"fp.Printing location" = "กำลังปริ้นท์ฉบับที่ *";
 "fp.Recevied data error" = "ได้รับข้อผิดพลาดในการประมวลผลข้อมูลโปรดติดต่อฝ่ายบริการลูกค้า";
 "fp.Failed to enable Bluetooth service" = "ไม่สามารถเปิดบริการบลูทู ธ ได้โปรดติดต่อฝ่ายบริการลูกค้า";
 "fp.The printing device is disconnected" = "อุปกรณ์การพิมพ์ถูกตัดการเชื่อมต่อ";

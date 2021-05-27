@@ -28,9 +28,10 @@
 "fp.Searching for printers" = "正在搜索设备中...";
 "fp.Connection successful" = "连接成功 正在打印";
 "fp.Connection failed" = "连接失败 请重试";
-"fp.Total" = "共";
-"fp.copy" = "份";
-"fp.Printing location" = "正在打印第";
+"fp.copy" = "共*份";
+"fp.Printing location" = "正在打印第*份";
+"fp.copy" = "共*份";
+"fp.Printing location" = "正在打印第*份";
 "fp.Recevied data error" = "接收数据处理出错，请联系客服";
 "fp.Failed to enable Bluetooth service" = "开启蓝牙服务失败，请联系客服";
 "fp.The printing device is disconnected" = "打印设备已断开连接";

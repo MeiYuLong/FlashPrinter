@@ -18,7 +18,7 @@ let FPItemFillColor = UIColor.init(FP_R: 248, FP_G: 249, FP_B: 251)
 let FPLinkColor = UIColor.init(FP_R: 1, FP_G: 144, FP_B: 254)
 let FPNormalTextColor = UIColor.init(FP_R: 48, FP_G: 49, FP_B: 51)
 let FPBlueTextColor = UIColor.init(FP_R: 22, FP_G: 155, FP_B: 213)
-
+let FPRedButtonColor = UIColor.init(FP_R: 255, FP_G: 68, FP_B: 68)
 let FPNoteBGColor = UIColor.init(FP_R: 255, FP_G: 219, FP_B: 51, alpha: 0.21)
 
 extension UIColor {

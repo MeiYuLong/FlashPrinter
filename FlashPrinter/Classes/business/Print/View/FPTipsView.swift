@@ -17,6 +17,11 @@ class FPTipsView: UIView {
         self.layer.masksToBounds = true
         self.layer.cornerRadius = 24
         
+        self.cancelButton.layer.masksToBounds = true
+        self.cancelButton.layer.cornerRadius = 12
+        self.cancelButton.layer.borderWidth = 1
+        self.cancelButton.layer.borderColor = FPRedButtonColor.cgColor
+        
         self.setAnimation()
     }
 
@@ -60,12 +65,12 @@ class FPTipsView: UIView {
     }
     
     private func loadData() {
-        self.tipLabel.text = "fp.Printing location".FP_Locale + "\(FPPrintManager.shared.printIndex ?? 0)" + "fp.copy".FP_Locale
-        self.totalLabel.text = "fp.Total".FP_Locale + "\(FPPrintManager.shared.printTotal ?? 0)" + "fp.copy".FP_Locale
+        self.tipLabel.text = "fp.Printing location".FP_Locale.replacingOccurrences(of: "*", with: "\(FPPrintManager.shared.printIndex ?? 0)")
+        self.totalLabel.text = "fp.copy".FP_Locale.replacingOccurrences(of: "*", with: "\(FPPrintManager.shared.printTotal ?? 0)")
         vm.updateCount = { [weak self](index, total) in
             guard let self = self else { return }
-            self.tipLabel.text = "fp.Printing location".FP_Locale + "\(index)" + "fp.copy".FP_Locale
-            self.totalLabel.text = "fp.Total".FP_Locale + "\(total)" + "fp.copy".FP_Locale
+            self.tipLabel.text = "fp.Printing location".FP_Locale.replacingOccurrences(of: "*", with: "\(index)")
+            self.totalLabel.text = "fp.copy".FP_Locale.replacingOccurrences(of: "*", with: "\(total)")
         }
     }
     
@@ -101,10 +106,10 @@ class FPTipsView: UIView {
     lazy var cancelButton: UIButton = {
         let button = UIButton.init(type: .custom)
         button.setTitle("fp.cancel print".FP_Locale, for: .normal)
-        button.setTitleColor(.red, for: .normal)
-        button.backgroundColor = FPMainButtonColor
+        button.setTitleColor(FPRedButtonColor, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         button.addTarget(self, action: #selector(cancelPrint), for: .touchUpInside)
+        button.contentEdgeInsets = .init(top: 3, left: 10, bottom: 3, right: 10)
         return button
     }()
     
