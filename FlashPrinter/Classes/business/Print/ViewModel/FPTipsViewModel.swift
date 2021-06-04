@@ -15,6 +15,9 @@ class FPTipsViewModel: FPBaseViewModel {
     /// 更新当前计数
     public var updateCount: ((Int, Int) -> Void)?
     
+    /// 打印结束
+    public var printDone: (() -> Void)?
+    
     override init() {
         super.init()
         
@@ -26,6 +29,9 @@ class FPTipsViewModel: FPBaseViewModel {
             self.updateCount?(index, total)
         }
 
-       
+        FPPrintManager.shared.printDone = { [weak self] in
+            guard let self = self else { return }
+            self.printDone?()
+        }
     }
 }

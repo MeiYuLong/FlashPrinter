@@ -10,6 +10,7 @@ import UIKit
 class FPTipsView: UIView {
     
     let vm = FPTipsViewModel()
+    let IconAnimationKey = "transform.translation.y"
     
     override func draw(_ rect: CGRect) {
         super.draw(rect)
@@ -22,7 +23,7 @@ class FPTipsView: UIView {
         self.cancelButton.layer.borderWidth = 1
         self.cancelButton.layer.borderColor = FPRedButtonColor.cgColor
         
-        self.setAnimation()
+        self.setAnimationV2()
     }
 
     override init(frame: CGRect) {
@@ -36,19 +37,24 @@ class FPTipsView: UIView {
     private func loadSubView() {
         self.backgroundColor = .white
         self.addSubview(iconView)
-        self.addSubview(tipLabel)
-        self.addSubview(totalLabel)
-        self.addSubview(cancelButton)
+        self.addSubview(bottomBGView)
+        bottomBGView.addSubview(tipLabel)
+        bottomBGView.addSubview(totalLabel)
+        bottomBGView.addSubview(cancelButton)
     }
     
     private func layoutSubview() {
         iconView.snp.makeConstraints { (make) in
-            make.top.equalTo(47)
+            make.top.equalTo(30)
             make.centerX.equalToSuperview()
-            make.size.equalTo(CGSize(width: 100, height: 130))
+            make.size.equalTo(CGSize(width: 152, height: 152))
+        }
+        bottomBGView.snp.makeConstraints { (make) in
+            make.top.equalTo(iconView.snp.bottom).offset(10)
+            make.left.right.bottom.equalToSuperview()
         }
         tipLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(iconView.snp.bottom).offset(10)
+            make.top.equalTo(10)
             make.centerX.equalToSuperview()
             make.left.greaterThanOrEqualTo(32)
             make.right.lessThanOrEqualTo(-32)
@@ -72,6 +78,13 @@ class FPTipsView: UIView {
             self.tipLabel.text = "fp.Printing location".FP_Locale.replacingOccurrences(of: "*", with: "\(index)")
             self.totalLabel.text = "fp.copy".FP_Locale.replacingOccurrences(of: "*", with: "\(total)")
         }
+        vm.printDone = { [weak self] in
+            guard let self = self else { return }
+            self.tipLabel.text = "fp.print done".FP_Locale
+            self.cancelButton.isHidden = true
+            self.iconView.image = UIImage.fp_make(name: "print_done")
+            self.removeAnimation()
+        }
     }
     
     @objc func cancelPrint() {
@@ -82,7 +95,13 @@ class FPTipsView: UIView {
     
     lazy var iconView: UIImageView = {
         let view = UIImageView()
-        view.image = UIImage.fp_make(name: "print")
+        view.image = UIImage.fp_make(name: "img_address_printing")
+        return view
+    }()
+    
+    lazy var bottomBGView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .white
         return view
     }()
     
@@ -131,8 +150,27 @@ extension FPTipsView {
         animation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
         animation.isRemovedOnCompletion = false
         animation.fillMode = .forwards
-        
         iconView.layer.add(animation, forKey: nil)
     }
     
+    private func setAnimationV2() {
+        let animation = CABasicAnimation(keyPath: "transform.translation.y")
+        animation.fromValue = 152
+        animation.byValue = 50
+        animation.toValue = 0
+        animation.duration = 1.5
+        
+        let group = CAAnimationGroup.init()
+        group.animations = [animation]
+        group.duration = 1.8
+        group.repeatCount = MAXFLOAT
+        group.timingFunction = CAMediaTimingFunction(name: .linear)
+        group.isRemovedOnCompletion = false
+        group.fillMode = .forwards
+        iconView.layer.add(group, forKey: IconAnimationKey)
+    }
+    
+    private func removeAnimation() {
+        iconView.layer.removeAnimation(forKey: IconAnimationKey)
+    }
 }

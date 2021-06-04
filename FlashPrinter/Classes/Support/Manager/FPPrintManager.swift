@@ -34,6 +34,8 @@ public class FPPrintManager{
     /// 更新当前计数
     public var updateCount: ((Int, Int) -> Void)?
     
+    public var printDone: (() -> Void)?
+    
     /// 取消打印
     private var canceledPrint = false
         
@@ -103,7 +105,10 @@ public class FPPrintManager{
                 break
             case .PRINTER_PRINT_END:
                 if self.printIndex == self.printTotal || self.canceledPrint {
-                    self.hidden()
+                    self.printDone?()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                        self.hidden()
+                    }
                     state = .PRINTER_PRINT_STOP
                 }
                 break

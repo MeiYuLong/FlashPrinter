@@ -33,7 +33,7 @@ class FPCentralManager: FPServiceProtocol {
     
     var currentPeripheral: FPPeripheral?
     
-    /// 需要将SDK的扫描统一管理
+    /// 需要将SDK的扫描统一管理,每个SDK扫描的设备不能通用，所以需要所有的打印机SDK来扫描，依据选择的设置来判断使用哪个SDK服务；
     public func scan() {
         alisonService.fpScan()
     }
